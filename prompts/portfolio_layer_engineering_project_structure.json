@@ -1,0 +1,382 @@
+{
+  "type": "directory",
+  "name": "portfolio_layer",
+  "path": ".",
+  "children": [
+    {
+      "type": "directory",
+      "name": ".pytest_cache",
+      "path": ".pytest_cache",
+      "children": [
+        {
+          "type": "directory",
+          "name": "v",
+          "path": ".pytest_cache\\v",
+          "children": [
+            {
+              "type": "directory",
+              "name": "cache",
+              "path": ".pytest_cache\\v\\cache",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "lastfailed",
+                  "path": ".pytest_cache\\v\\cache\\lastfailed",
+                  "suffix": ""
+                },
+                {
+                  "type": "file",
+                  "name": "nodeids",
+                  "path": ".pytest_cache\\v\\cache\\nodeids",
+                  "suffix": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "name": ".gitignore",
+          "path": ".pytest_cache\\.gitignore",
+          "suffix": ""
+        },
+        {
+          "type": "file",
+          "name": "CACHEDIR.TAG",
+          "path": ".pytest_cache\\CACHEDIR.TAG",
+          "suffix": ".TAG"
+        },
+        {
+          "type": "file",
+          "name": "README.md",
+          "path": ".pytest_cache\\README.md",
+          "suffix": ".md"
+        }
+      ]
+    },
+    {
+      "type": "directory",
+      "name": "candidate_selection",
+      "path": "candidate_selection",
+      "children": [
+        {
+          "type": "directory",
+          "name": "filters",
+          "path": "candidate_selection\\filters",
+          "children": []
+        },
+        {
+          "type": "file",
+          "name": "__init__.py",
+          "path": "candidate_selection\\__init__.py",
+          "suffix": ".py"
+        }
+      ]
+    },
+    {
+      "type": "directory",
+      "name": "configs",
+      "path": "configs",
+      "children": [
+        {
+          "type": "directory",
+          "name": "schemas",
+          "path": "configs\\schemas",
+          "children": []
+        }
+      ]
+    },
+    {
+      "type": "directory",
+      "name": "constraints",
+      "path": "constraints",
+      "children": [
+        {
+          "type": "file",
+          "name": "__init__.py",
+          "path": "constraints\\__init__.py",
+          "suffix": ".py"
+        }
+      ]
+    },
+    {
+      "type": "directory",
+      "name": "data_models",
+      "path": "data_models",
+      "children": [
+        {
+          "type": "file",
+          "name": "__init__.py",
+          "path": "data_models\\__init__.py",
+          "suffix": ".py"
+        }
+      ]
+    },
+    {
+      "type": "directory",
+      "name": "degradation",
+      "path": "degradation",
+      "children": [
+        {
+          "type": "file",
+          "name": "__init__.py",
+          "path": "degradation\\__init__.py",
+          "suffix": ".py"
+        }
+      ]
+    },
+    {
+      "type": "directory",
+      "name": "notebooks",
+      "path": "notebooks",
+      "children": []
+    },
+    {
+      "type": "directory",
+      "name": "optimizer",
+      "path": "optimizer",
+      "children": [
+        {
+          "type": "file",
+          "name": "__init__.py",
+          "path": "optimizer\\__init__.py",
+          "suffix": ".py"
+        },
+        {
+          "type": "file",
+          "name": "topk_builders.py",
+          "path": "optimizer\\topk_builders.py",
+          "suffix": ".py"
+        }
+      ]
+    },
+    {
+      "type": "directory",
+      "name": "outputs",
+      "path": "outputs",
+      "children": [
+        {
+          "type": "directory",
+          "name": "20240701",
+          "path": "outputs\\20240701",
+          "children": [
+            {
+              "type": "file",
+              "name": "portfolio.parquet",
+              "path": "outputs\\20240701\\portfolio.parquet",
+              "suffix": ".parquet"
+            }
+          ]
+        },
+        {
+          "type": "directory",
+          "name": "20260313",
+          "path": "outputs\\20260313",
+          "children": [
+            {
+              "type": "file",
+              "name": "portfolio.parquet",
+              "path": "outputs\\20260313\\portfolio.parquet",
+              "suffix": ".parquet"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "directory",
+      "name": "pipeline",
+      "path": "pipeline",
+      "children": [
+        {
+          "type": "file",
+          "name": "__init__.py",
+          "path": "pipeline\\__init__.py",
+          "suffix": ".py"
+        }
+      ]
+    },
+    {
+      "type": "directory",
+      "name": "postprocess",
+      "path": "postprocess",
+      "children": [
+        {
+          "type": "file",
+          "name": "__init__.py",
+          "path": "postprocess\\__init__.py",
+          "suffix": ".py"
+        }
+      ]
+    },
+    {
+      "type": "directory",
+      "name": "reporting",
+      "path": "reporting",
+      "children": [
+        {
+          "type": "directory",
+          "name": "templates",
+          "path": "reporting\\templates",
+          "children": []
+        },
+        {
+          "type": "file",
+          "name": "__init__.py",
+          "path": "reporting\\__init__.py",
+          "suffix": ".py"
+        }
+      ]
+    },
+    {
+      "type": "directory",
+      "name": "risk_model",
+      "path": "risk_model",
+      "children": [
+        {
+          "type": "directory",
+          "name": "covariance",
+          "path": "risk_model\\covariance",
+          "children": []
+        },
+        {
+          "type": "directory",
+          "name": "factor_definitions",
+          "path": "risk_model\\factor_definitions",
+          "children": []
+        },
+        {
+          "type": "file",
+          "name": "__init__.py",
+          "path": "risk_model\\__init__.py",
+          "suffix": ".py"
+        }
+      ]
+    },
+    {
+      "type": "directory",
+      "name": "signal_fusion",
+      "path": "signal_fusion",
+      "children": [
+        {
+          "type": "file",
+          "name": "__init__.py",
+          "path": "signal_fusion\\__init__.py",
+          "suffix": ".py"
+        }
+      ]
+    },
+    {
+      "type": "directory",
+      "name": "tests",
+      "path": "tests",
+      "children": [
+        {
+          "type": "directory",
+          "name": "boundary",
+          "path": "tests\\boundary",
+          "children": []
+        },
+        {
+          "type": "directory",
+          "name": "consistency",
+          "path": "tests\\consistency",
+          "children": []
+        },
+        {
+          "type": "directory",
+          "name": "fixtures",
+          "path": "tests\\fixtures",
+          "children": [
+            {
+              "type": "directory",
+              "name": "mock_snapshots",
+              "path": "tests\\fixtures\\mock_snapshots",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "directory",
+          "name": "integration",
+          "path": "tests\\integration",
+          "children": [
+            {
+              "type": "file",
+              "name": "test_integration.py",
+              "path": "tests\\integration\\test_integration.py",
+              "suffix": ".py"
+            }
+          ]
+        },
+        {
+          "type": "directory",
+          "name": "robustness",
+          "path": "tests\\robustness",
+          "children": []
+        },
+        {
+          "type": "directory",
+          "name": "stress",
+          "path": "tests\\stress",
+          "children": []
+        },
+        {
+          "type": "directory",
+          "name": "unit",
+          "path": "tests\\unit",
+          "children": [
+            {
+              "type": "file",
+              "name": "test_alpha_combiner.py",
+              "path": "tests\\unit\\test_alpha_combiner.py",
+              "suffix": ".py"
+            },
+            {
+              "type": "file",
+              "name": "test_postprocess.py",
+              "path": "tests\\unit\\test_postprocess.py",
+              "suffix": ".py"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "name": "__init__.py",
+          "path": "tests\\__init__.py",
+          "suffix": ".py"
+        },
+        {
+          "type": "file",
+          "name": "mock_data_generator.py",
+          "path": "tests\\mock_data_generator.py",
+          "suffix": ".py"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "data_loaders.py",
+      "path": "data_loaders.py",
+      "suffix": ".py"
+    },
+    {
+      "type": "file",
+      "name": "portfolio_layer_evaluation_report.md",
+      "path": "portfolio_layer_evaluation_report.md",
+      "suffix": ".md"
+    },
+    {
+      "type": "file",
+      "name": "run_real_data_pipeline.py",
+      "path": "run_real_data_pipeline.py",
+      "suffix": ".py"
+    },
+    {
+      "type": "file",
+      "name": "setup.py",
+      "path": "setup.py",
+      "suffix": ".py"
+    }
+  ]
+}

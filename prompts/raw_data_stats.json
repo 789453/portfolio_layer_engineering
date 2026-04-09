@@ -1,0 +1,3642 @@
+{
+    "raw_cyq_perf": {
+        "ts_code": {
+            "category": "Index Key",
+            "example_value": "000001.SZ",
+            "dtype": "String",
+            "missing_rate": 0.0,
+            "value_range": [
+                "000001.SZ",
+                "920992.BJ"
+            ],
+            "description": "Stock code identifier (e.g., Code.Exchange)"
+        },
+        "trade_date": {
+            "category": "Index Key",
+            "example_value": "20260313",
+            "dtype": "String",
+            "missing_rate": 0.0,
+            "value_range": [
+                "20180102",
+                "20260313"
+            ],
+            "description": "Trading date in YYYYMMDD format"
+        },
+        "his_low": {
+            "category": "Dynamic Continuous",
+            "example_value": "0.20000000298023224",
+            "dtype": "Float32",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                707.2000122070312
+            ],
+            "description": "Field his_low from cyq_perf.parquet"
+        },
+        "his_high": {
+            "category": "Dynamic Continuous",
+            "example_value": "21.200000762939453",
+            "dtype": "Float32",
+            "missing_rate": 0.0,
+            "value_range": [
+                1.399999976158142,
+                2330.0
+            ],
+            "description": "Field his_high from cyq_perf.parquet"
+        },
+        "cost_5pct": {
+            "category": "Dynamic Continuous",
+            "example_value": "10.399999618530273",
+            "dtype": "Float32",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                1724.199951171875
+            ],
+            "description": "Field cost_5pct from cyq_perf.parquet"
+        },
+        "cost_15pct": {
+            "category": "Dynamic Continuous",
+            "example_value": "10.800000190734863",
+            "dtype": "Float32",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                1957.199951171875
+            ],
+            "description": "Field cost_15pct from cyq_perf.parquet"
+        },
+        "cost_50pct": {
+            "category": "Dynamic Continuous",
+            "example_value": "11.399999618530273",
+            "dtype": "Float32",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                2190.199951171875
+            ],
+            "description": "Field cost_50pct from cyq_perf.parquet"
+        },
+        "cost_85pct": {
+            "category": "Dynamic Continuous",
+            "example_value": "11.800000190734863",
+            "dtype": "Float32",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.20000000298023224,
+                2236.800048828125
+            ],
+            "description": "Field cost_85pct from cyq_perf.parquet"
+        },
+        "cost_95pct": {
+            "category": "Dynamic Continuous",
+            "example_value": "12.800000190734863",
+            "dtype": "Float32",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.20000000298023224,
+                2236.800048828125
+            ],
+            "description": "Field cost_95pct from cyq_perf.parquet"
+        },
+        "weight_avg": {
+            "category": "Dynamic Continuous",
+            "example_value": "11.430000305175781",
+            "dtype": "Float32",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.12999999523162842,
+                2092.830078125
+            ],
+            "description": "Field weight_avg from cyq_perf.parquet"
+        },
+        "winner_rate": {
+            "category": "Dynamic Continuous",
+            "example_value": "24.309999465942383",
+            "dtype": "Float32",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                100.62000274658203
+            ],
+            "description": "Field winner_rate from cyq_perf.parquet"
+        }
+    },
+    "raw_daily": {
+        "ts_code": {
+            "category": "Index Key",
+            "example_value": "600874.SH",
+            "dtype": "String",
+            "missing_rate": 0.0,
+            "value_range": [
+                "000001.SZ",
+                "920992.BJ"
+            ],
+            "description": "Stock code identifier (e.g., Code.Exchange)"
+        },
+        "trade_date": {
+            "category": "Index Key",
+            "example_value": "20050104",
+            "dtype": "String",
+            "missing_rate": 0.0,
+            "value_range": [
+                "20050104",
+                "20260313"
+            ],
+            "description": "Trading date in YYYYMMDD format"
+        },
+        "open": {
+            "category": "Dynamic Continuous",
+            "example_value": "6.0",
+            "dtype": "Float32",
+            "missing_rate": 6.515873286333471e-08,
+            "value_range": [
+                0.009999999776482582,
+                2587.97998046875
+            ],
+            "description": "Field open from daily.parquet"
+        },
+        "high": {
+            "category": "Dynamic Continuous",
+            "example_value": "6.0",
+            "dtype": "Float32",
+            "missing_rate": 6.515873286333471e-08,
+            "value_range": [
+                0.009999999776482582,
+                2627.8798828125
+            ],
+            "description": "Field high from daily.parquet"
+        },
+        "low": {
+            "category": "Dynamic Continuous",
+            "example_value": "5.900000095367432",
+            "dtype": "Float32",
+            "missing_rate": 6.515873286333471e-08,
+            "value_range": [
+                0.009999999776482582,
+                2485.0
+            ],
+            "description": "Field low from daily.parquet"
+        },
+        "close": {
+            "category": "Dynamic Continuous",
+            "example_value": "5.940000057220459",
+            "dtype": "Float32",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.009999999776482582,
+                2601.0
+            ],
+            "description": "Field close from daily.parquet"
+        },
+        "pre_close": {
+            "category": "Dynamic Continuous",
+            "example_value": "6.0",
+            "dtype": "Float32",
+            "missing_rate": 1.5768413352927e-05,
+            "value_range": [
+                0.009999999776482582,
+                2601.0
+            ],
+            "description": "Field pre_close from daily.parquet"
+        },
+        "change": {
+            "category": "Dynamic Continuous",
+            "example_value": "-0.05999999865889549",
+            "dtype": "Float32",
+            "missing_rate": 1.5768413352927e-05,
+            "value_range": [
+                -250.5500030517578,
+                725.239990234375
+            ],
+            "description": "Field change from daily.parquet"
+        },
+        "pct_chg": {
+            "category": "Dynamic Continuous",
+            "example_value": "-1.0",
+            "dtype": "Float32",
+            "missing_rate": 1.5768413352927e-05,
+            "value_range": [
+                -99.94120025634766,
+                200400.0
+            ],
+            "description": "Field pct_chg from daily.parquet"
+        },
+        "vol": {
+            "category": "Dynamic Continuous",
+            "example_value": "12650.0",
+            "dtype": "Float32",
+            "missing_rate": 6.515873286333471e-08,
+            "value_range": [
+                0.009999999776482582,
+                56161348.0
+            ],
+            "description": "Field vol from daily.parquet"
+        },
+        "amount": {
+            "category": "Dynamic Continuous",
+            "example_value": "7524.51220703125",
+            "dtype": "Float32",
+            "missing_rate": 6.515873286333471e-08,
+            "value_range": [
+                0.0010000000474974513,
+                90037648.0
+            ],
+            "description": "Field amount from daily.parquet"
+        }
+    },
+    "raw_daily_basic": {
+        "ts_code": {
+            "category": "Index Key",
+            "example_value": "000949.SZ",
+            "dtype": "String",
+            "missing_rate": 0.0,
+            "value_range": [
+                "000001.SZ",
+                "920992.BJ"
+            ],
+            "description": "Stock code identifier (e.g., Code.Exchange)"
+        },
+        "trade_date": {
+            "category": "Index Key",
+            "example_value": "20050104",
+            "dtype": "String",
+            "missing_rate": 0.0,
+            "value_range": [
+                "20050104",
+                "20260313"
+            ],
+            "description": "Trading date in YYYYMMDD format"
+        },
+        "close": {
+            "category": "Dynamic Continuous",
+            "example_value": "4.489999771118164",
+            "dtype": "Float32",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.09000000357627869,
+                2601.0
+            ],
+            "description": "Field close from daily_basic.parquet"
+        },
+        "turnover_rate": {
+            "category": "Dynamic Continuous",
+            "example_value": "0.19359999895095825",
+            "dtype": "Float32",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                106.4832992553711
+            ],
+            "description": "Field turnover_rate from daily_basic.parquet"
+        },
+        "turnover_rate_f": {
+            "category": "Dynamic Continuous",
+            "example_value": "0.19359999895095825",
+            "dtype": "Float32",
+            "missing_rate": 0.000140472675147729,
+            "value_range": [
+                0.0,
+                5604.970703125
+            ],
+            "description": "Field turnover_rate_f from daily_basic.parquet"
+        },
+        "volume_ratio": {
+            "category": "Dynamic Continuous",
+            "example_value": "0.5199999809265137",
+            "dtype": "Float32",
+            "missing_rate": 0.0015276976980835148,
+            "value_range": [
+                0.0,
+                18459.2109375
+            ],
+            "description": "Field volume_ratio from daily_basic.parquet"
+        },
+        "pe": {
+            "category": "Dynamic Continuous",
+            "example_value": "11.406599998474121",
+            "dtype": "Float32",
+            "missing_rate": 0.12748357393949358,
+            "value_range": [
+                0.10409999638795853,
+                71986.2578125
+            ],
+            "description": "Field pe from daily_basic.parquet"
+        },
+        "pe_ttm": {
+            "category": "Dynamic Continuous",
+            "example_value": "16.310699462890625",
+            "dtype": "Float32",
+            "missing_rate": 0.16673457599538952,
+            "value_range": [
+                0.13339999318122864,
+                2653832.25
+            ],
+            "description": "Field pe_ttm from daily_basic.parquet"
+        },
+        "pb": {
+            "category": "Dynamic Continuous",
+            "example_value": "1.7171000242233276",
+            "dtype": "Float32",
+            "missing_rate": 0.008714615372312239,
+            "value_range": [
+                0.022600000724196434,
+                45723.56640625
+            ],
+            "description": "Field pb from daily_basic.parquet"
+        },
+        "ps": {
+            "category": "Dynamic Continuous",
+            "example_value": "2.0452001094818115",
+            "dtype": "Float32",
+            "missing_rate": 0.0005067635331624325,
+            "value_range": [
+                0.015200000256299973,
+                2223992.75
+            ],
+            "description": "Field ps from daily_basic.parquet"
+        },
+        "ps_ttm": {
+            "category": "Dynamic Continuous",
+            "example_value": "1.6447999477386475",
+            "dtype": "Float32",
+            "missing_rate": 0.0010189676785681042,
+            "value_range": [
+                0.01510000042617321,
+                6318763008.0
+            ],
+            "description": "Field ps_ttm from daily_basic.parquet"
+        },
+        "dv_ratio": {
+            "category": "Dynamic Continuous",
+            "example_value": "5.879799842834473",
+            "dtype": "Float32",
+            "missing_rate": 0.0962751733195522,
+            "value_range": [
+                0.0,
+                100.0
+            ],
+            "description": "Field dv_ratio from daily_basic.parquet"
+        },
+        "dv_ttm": {
+            "category": "Dynamic Continuous",
+            "example_value": "5.879799842834473",
+            "dtype": "Float32",
+            "missing_rate": 0.34585060891594427,
+            "value_range": [
+                0.0034000000450760126,
+                157.47999572753906
+            ],
+            "description": "Field dv_ttm from daily_basic.parquet"
+        },
+        "total_share": {
+            "category": "Dynamic Continuous",
+            "example_value": "49057.140625",
+            "dtype": "Float32",
+            "missing_rate": 0.0,
+            "value_range": [
+                2600.0,
+                35640624.0
+            ],
+            "description": "Field total_share from daily_basic.parquet"
+        },
+        "float_share": {
+            "category": "Dynamic Continuous",
+            "example_value": "18582.099609375",
+            "dtype": "Float32",
+            "missing_rate": 0.0,
+            "value_range": [
+                30.149999618530273,
+                31924422.0
+            ],
+            "description": "Field float_share from daily_basic.parquet"
+        },
+        "free_share": {
+            "category": "Dynamic Continuous",
+            "example_value": "18582.099609375",
+            "dtype": "Float32",
+            "missing_rate": 0.00042653088996092987,
+            "value_range": [
+                5.31220006942749,
+                5564158.0
+            ],
+            "description": "Field free_share from daily_basic.parquet"
+        },
+        "total_mv": {
+            "category": "Dynamic Continuous",
+            "example_value": "220266.5625",
+            "dtype": "Float32",
+            "missing_rate": 0.0,
+            "value_range": [
+                2543.353759765625,
+                804560192.0
+            ],
+            "description": "Field total_mv from daily_basic.parquet"
+        },
+        "circ_mv": {
+            "category": "Dynamic Continuous",
+            "example_value": "83433.6328125",
+            "dtype": "Float32",
+            "missing_rate": 0.0,
+            "value_range": [
+                315.2489929199219,
+                326737056.0
+            ],
+            "description": "Field circ_mv from daily_basic.parquet"
+        }
+    },
+    "raw_fina_indicator": {
+        "ts_code": {
+            "category": "Index Key",
+            "example_value": "000022.SZ",
+            "dtype": "String",
+            "missing_rate": 0.0,
+            "value_range": [
+                "000001.SZ",
+                "A26002.SH"
+            ],
+            "description": "Stock code identifier (e.g., Code.Exchange)"
+        },
+        "ann_date": {
+            "category": "Dynamic Continuous",
+            "example_value": "20040426",
+            "dtype": "String",
+            "missing_rate": 6.987525747513352e-05,
+            "value_range": [
+                "None",
+                "None"
+            ],
+            "description": "Field ann_date from fina_indicator.parquet"
+        },
+        "end_date": {
+            "category": "Dynamic Continuous",
+            "example_value": "20040331",
+            "dtype": "String",
+            "missing_rate": 0.0,
+            "value_range": [
+                "20040331",
+                "20251231"
+            ],
+            "description": "Field end_date from fina_indicator.parquet"
+        },
+        "eps": {
+            "category": "Dynamic Continuous",
+            "example_value": "0.0647",
+            "dtype": "Float64",
+            "missing_rate": 0.06626301046913641,
+            "value_range": [
+                -65.88,
+                136.88
+            ],
+            "description": "Field eps from fina_indicator.parquet"
+        },
+        "dt_eps": {
+            "category": "Dynamic Continuous",
+            "example_value": "0.304",
+            "dtype": "Float64",
+            "missing_rate": 0.10934262572989263,
+            "value_range": [
+                -27.74,
+                136.88
+            ],
+            "description": "Field dt_eps from fina_indicator.parquet"
+        },
+        "total_revenue_ps": {
+            "category": "Dynamic Continuous",
+            "example_value": "0.8254",
+            "dtype": "Float64",
+            "missing_rate": 0.04151805515892064,
+            "value_range": [
+                -1.3628,
+                1837.0579
+            ],
+            "description": "Field total_revenue_ps from fina_indicator.parquet"
+        },
+        "revenue_ps": {
+            "category": "Dynamic Continuous",
+            "example_value": "0.8254",
+            "dtype": "Float64",
+            "missing_rate": 0.04162438707246976,
+            "value_range": [
+                -1.3628,
+                1837.0579
+            ],
+            "description": "Field revenue_ps from fina_indicator.parquet"
+        },
+        "capital_rese_ps": {
+            "category": "Dynamic Continuous",
+            "example_value": "1.0654",
+            "dtype": "Float64",
+            "missing_rate": 0.04972080277556675,
+            "value_range": [
+                -14.8326,
+                67521.2935
+            ],
+            "description": "Field capital_rese_ps from fina_indicator.parquet"
+        },
+        "surplus_rese_ps": {
+            "category": "Dynamic Continuous",
+            "example_value": "1.3567",
+            "dtype": "Float64",
+            "missing_rate": 0.0561462884086062,
+            "value_range": [
+                -2.0791,
+                38.7327
+            ],
+            "description": "Field surplus_rese_ps from fina_indicator.parquet"
+        },
+        "undist_profit_ps": {
+            "category": "Dynamic Continuous",
+            "example_value": "0.7829",
+            "dtype": "Float64",
+            "missing_rate": 0.03993219061970239,
+            "value_range": [
+                -30607.8539,
+                301.1787
+            ],
+            "description": "Field undist_profit_ps from fina_indicator.parquet"
+        },
+        "extra_item": {
+            "category": "Dynamic Continuous",
+            "example_value": "454945.0",
+            "dtype": "Float64",
+            "missing_rate": 0.04274239119207189,
+            "value_range": [
+                -44537695750.9,
+                35064000000.0
+            ],
+            "description": "Field extra_item from fina_indicator.parquet"
+        },
+        "profit_dedt": {
+            "category": "Dynamic Continuous",
+            "example_value": "96383296.0",
+            "dtype": "Float64",
+            "missing_rate": 0.04276973368412738,
+            "value_range": [
+                -55699189000.0,
+                364277000000.0
+            ],
+            "description": "Field profit_dedt from fina_indicator.parquet"
+        },
+        "gross_margin": {
+            "category": "Dynamic Continuous",
+            "example_value": "205420175.0",
+            "dtype": "Float64",
+            "missing_rate": 0.02639765705223631,
+            "value_range": [
+                -29914681000.0,
+                711232000000.0
+            ],
+            "description": "Field gross_margin from fina_indicator.parquet"
+        },
+        "current_ratio": {
+            "category": "Dynamic Continuous",
+            "example_value": "0.483",
+            "dtype": "Float64",
+            "missing_rate": 0.05395888904416724,
+            "value_range": [
+                -0.033,
+                4010.5022
+            ],
+            "description": "Field current_ratio from fina_indicator.parquet"
+        },
+        "quick_ratio": {
+            "category": "Dynamic Continuous",
+            "example_value": "0.4525",
+            "dtype": "Float64",
+            "missing_rate": 0.05479435407919601,
+            "value_range": [
+                -0.0844,
+                3875.2248
+            ],
+            "description": "Field quick_ratio from fina_indicator.parquet"
+        },
+        "cash_ratio": {
+            "category": "Dynamic Continuous",
+            "example_value": "0.4434",
+            "dtype": "Float64",
+            "missing_rate": 0.05778379987726259,
+            "value_range": [
+                -0.033,
+                3722.3094
+            ],
+            "description": "Field cash_ratio from fina_indicator.parquet"
+        },
+        "ar_turn": {
+            "category": "Dynamic Continuous",
+            "example_value": "1.5882",
+            "dtype": "Float64",
+            "missing_rate": 0.0633191354911623,
+            "value_range": [
+                -0.6905,
+                49046946.4354
+            ],
+            "description": "Field ar_turn from fina_indicator.parquet"
+        },
+        "ca_turn": {
+            "category": "Dynamic Continuous",
+            "example_value": "1.0725",
+            "dtype": "Float64",
+            "missing_rate": 0.054517891103968305,
+            "value_range": [
+                -0.1493,
+                38.0126
+            ],
+            "description": "Field ca_turn from fina_indicator.parquet"
+        },
+        "fa_turn": {
+            "category": "Dynamic Continuous",
+            "example_value": "0.1745",
+            "dtype": "Float64",
+            "missing_rate": 0.036383742761834745,
+            "value_range": [
+                -109.9945,
+                83557.8737
+            ],
+            "description": "Field fa_turn from fina_indicator.parquet"
+        },
+        "assets_turn": {
+            "category": "Dynamic Continuous",
+            "example_value": "0.0961",
+            "dtype": "Float64",
+            "missing_rate": 0.03350366693199011,
+            "value_range": [
+                -0.1383,
+                25.1825
+            ],
+            "description": "Field assets_turn from fina_indicator.parquet"
+        },
+        "op_income": {
+            "category": "Dynamic Continuous",
+            "example_value": "158779902.0",
+            "dtype": "Float64",
+            "missing_rate": 0.00412567824570571,
+            "value_range": [
+                -186387000000.0,
+                348000000000.0
+            ],
+            "description": "Field op_income from fina_indicator.parquet"
+        },
+        "ebit": {
+            "category": "Dynamic Continuous",
+            "example_value": "164621704.0",
+            "dtype": "Float64",
+            "missing_rate": 0.02408265939153841,
+            "value_range": [
+                -63037980000.0,
+                253434000000.0
+            ],
+            "description": "Field ebit from fina_indicator.parquet"
+        },
+        "ebitda": {
+            "category": "Dynamic Continuous",
+            "example_value": "197555168.0",
+            "dtype": "Float64",
+            "missing_rate": 0.45771939311819854,
+            "value_range": [
+                -58260091000.0,
+                484765000000.0
+            ],
+            "description": "Field ebitda from fina_indicator.parquet"
+        },
+        "fcff": {
+            "category": "Dynamic Continuous",
+            "example_value": "-263824972.9587",
+            "dtype": "Float64",
+            "missing_rate": 0.06086742537018696,
+            "value_range": [
+                -941316753161.6821,
+                924338364998.3044
+            ],
+            "description": "Field fcff from fina_indicator.parquet"
+        },
+        "fcfe": {
+            "category": "Dynamic Continuous",
+            "example_value": "-161162412.9587",
+            "dtype": "Float64",
+            "missing_rate": 0.06664580535791322,
+            "value_range": [
+                -199337134309.5942,
+                826266892840.5609
+            ],
+            "description": "Field fcfe from fina_indicator.parquet"
+        },
+        "current_exint": {
+            "category": "Dynamic Continuous",
+            "example_value": "77134813.0",
+            "dtype": "Float64",
+            "missing_rate": 0.057637973252966664,
+            "value_range": [
+                -1657196833.83,
+                1671248377000.0
+            ],
+            "description": "Field current_exint from fina_indicator.parquet"
+        },
+        "noncurrent_exint": {
+            "category": "Dynamic Continuous",
+            "example_value": "57474640.0",
+            "dtype": "Float64",
+            "missing_rate": 0.11529113677929748,
+            "value_range": [
+                -27092659326.93,
+                203028000000.0
+            ],
+            "description": "Field noncurrent_exint from fina_indicator.parquet"
+        },
+        "interestdebt": {
+            "category": "Dynamic Continuous",
+            "example_value": "1057299371.0",
+            "dtype": "Float64",
+            "missing_rate": 0.05538981279507106,
+            "value_range": [
+                -4929139177.43,
+                938991555000.0
+            ],
+            "description": "Field interestdebt from fina_indicator.parquet"
+        },
+        "netdebt": {
+            "category": "Dynamic Continuous",
+            "example_value": "984550578.0",
+            "dtype": "Float64",
+            "missing_rate": 0.05538981279507106,
+            "value_range": [
+                -356689000000.0,
+                830013495458.43
+            ],
+            "description": "Field netdebt from fina_indicator.parquet"
+        },
+        "tangible_asset": {
+            "category": "Dynamic Continuous",
+            "example_value": "948044118.0",
+            "dtype": "Float64",
+            "missing_rate": 0.05414421037920998,
+            "value_range": [
+                -149637602446.01,
+                1422782000000.0
+            ],
+            "description": "Field tangible_asset from fina_indicator.parquet"
+        },
+        "working_capital": {
+            "category": "Dynamic Continuous",
+            "example_value": "-346494137.0",
+            "dtype": "Float64",
+            "missing_rate": 0.0569939056623263,
+            "value_range": [
+                -278440747209.0,
+                578431420000.0
+            ],
+            "description": "Field working_capital from fina_indicator.parquet"
+        },
+        "networking_capital": {
+            "category": "Dynamic Continuous",
+            "example_value": "173821737.0",
+            "dtype": "Float64",
+            "missing_rate": 0.057637973252966664,
+            "value_range": [
+                -295873000000.0,
+                629786453653.78
+            ],
+            "description": "Field networking_capital from fina_indicator.parquet"
+        },
+        "invest_capital": {
+            "category": "Dynamic Continuous",
+            "example_value": "2655221883.0",
+            "dtype": "Float64",
+            "missing_rate": 0.053843442966599625,
+            "value_range": [
+                -22094182324.95,
+                2134076000000.0
+            ],
+            "description": "Field invest_capital from fina_indicator.parquet"
+        },
+        "retained_earnings": {
+            "category": "Dynamic Continuous",
+            "example_value": "816285734.0",
+            "dtype": "Float64",
+            "missing_rate": 0.0397802878860608,
+            "value_range": [
+                -844620000000.0,
+                2680975000000.0
+            ],
+            "description": "Field retained_earnings from fina_indicator.parquet"
+        },
+        "diluted2_eps": {
+            "category": "Dynamic Continuous",
+            "example_value": "0.254",
+            "dtype": "Float64",
+            "missing_rate": 0.039789402050079296,
+            "value_range": [
+                -10206.2317,
+                195.0867
+            ],
+            "description": "Field diluted2_eps from fina_indicator.parquet"
+        },
+        "bps": {
+            "category": "Dynamic Continuous",
+            "example_value": "4.188",
+            "dtype": "Float64",
+            "missing_rate": 0.03993219061970239,
+            "value_range": [
+                -118.0718,
+                36869.8602
+            ],
+            "description": "Field bps from fina_indicator.parquet"
+        },
+        "ocfps": {
+            "category": "Dynamic Continuous",
+            "example_value": "0.5758",
+            "dtype": "Float64",
+            "missing_rate": 0.03887190953888406,
+            "value_range": [
+                -576110577.57,
+                71891100.0
+            ],
+            "description": "Field ocfps from fina_indicator.parquet"
+        },
+        "retainedps": {
+            "category": "Dynamic Continuous",
+            "example_value": "2.1396",
+            "dtype": "Float64",
+            "missing_rate": 0.03981370648746195,
+            "value_range": [
+                -30607.8539,
+                301.6787
+            ],
+            "description": "Field retainedps from fina_indicator.parquet"
+        },
+        "cfps": {
+            "category": "Dynamic Continuous",
+            "example_value": "0.0787",
+            "dtype": "Float64",
+            "missing_rate": 0.04072208483463868,
+            "value_range": [
+                -44.8226,
+                5541.1587
+            ],
+            "description": "Field cfps from fina_indicator.parquet"
+        },
+        "ebit_ps": {
+            "category": "Dynamic Continuous",
+            "example_value": "0.4315",
+            "dtype": "Float64",
+            "missing_rate": 0.05733112973101064,
+            "value_range": [
+                -10024.9295,
+                218.4484
+            ],
+            "description": "Field ebit_ps from fina_indicator.parquet"
+        },
+        "fcff_ps": {
+            "category": "Dynamic Continuous",
+            "example_value": "-0.6915",
+            "dtype": "Float64",
+            "missing_rate": 0.07528907090211995,
+            "value_range": [
+                -42278.131,
+                456.976
+            ],
+            "description": "Field fcff_ps from fina_indicator.parquet"
+        },
+        "fcfe_ps": {
+            "category": "Dynamic Continuous",
+            "example_value": "-0.4224",
+            "dtype": "Float64",
+            "missing_rate": 0.07528907090211995,
+            "value_range": [
+                -42416.67,
+                456.976
+            ],
+            "description": "Field fcfe_ps from fina_indicator.parquet"
+        },
+        "netprofit_margin": {
+            "category": "Dynamic Continuous",
+            "example_value": "47.5588",
+            "dtype": "Float64",
+            "missing_rate": 0.00876478773112001,
+            "value_range": [
+                -37306954.195,
+                82162434.3185
+            ],
+            "description": "Field netprofit_margin from fina_indicator.parquet"
+        },
+        "grossprofit_margin": {
+            "category": "Dynamic Continuous",
+            "example_value": "65.2299",
+            "dtype": "Float64",
+            "missing_rate": 0.029359760358247406,
+            "value_range": [
+                -9977.2895,
+                174.2573
+            ],
+            "description": "Field grossprofit_margin from fina_indicator.parquet"
+        },
+        "cogs_of_sales": {
+            "category": "Dynamic Continuous",
+            "example_value": "34.7701",
+            "dtype": "Float64",
+            "missing_rate": 0.029359760358247406,
+            "value_range": [
+                -74.2573,
+                10077.2895
+            ],
+            "description": "Field cogs_of_sales from fina_indicator.parquet"
+        },
+        "expense_of_sales": {
+            "category": "Dynamic Continuous",
+            "example_value": "11.2812",
+            "dtype": "Float64",
+            "missing_rate": 0.02864277945545908,
+            "value_range": [
+                -20989.9681,
+                28567317.6751
+            ],
+            "description": "Field expense_of_sales from fina_indicator.parquet"
+        },
+        "profit_to_gr": {
+            "category": "Dynamic Continuous",
+            "example_value": "47.5588",
+            "dtype": "Float64",
+            "missing_rate": 0.00868579830962638,
+            "value_range": [
+                -37306954.195,
+                82162434.3185
+            ],
+            "description": "Field profit_to_gr from fina_indicator.parquet"
+        },
+        "saleexp_to_gr": {
+            "category": "Dynamic Continuous",
+            "example_value": "4.4538",
+            "dtype": "Float64",
+            "missing_rate": 0.05131274342413066,
+            "value_range": [
+                -56.3515,
+                292001.7974
+            ],
+            "description": "Field saleexp_to_gr from fina_indicator.parquet"
+        },
+        "adminexp_of_gr": {
+            "category": "Dynamic Continuous",
+            "example_value": "9.5275",
+            "dtype": "Float64",
+            "missing_rate": 0.010569392206782153,
+            "value_range": [
+                -19948.0327,
+                22265546.787
+            ],
+            "description": "Field adminexp_of_gr from fina_indicator.parquet"
+        },
+        "finaexp_of_gr": {
+            "category": "Dynamic Continuous",
+            "example_value": "1.7537",
+            "dtype": "Float64",
+            "missing_rate": 0.028818986626483332,
+            "value_range": [
+                -159888.8633,
+                23252983.39
+            ],
+            "description": "Field finaexp_of_gr from fina_indicator.parquet"
+        },
+        "impai_ttm": {
+            "category": "Dynamic Continuous",
+            "example_value": "0.3101",
+            "dtype": "Float64",
+            "missing_rate": 0.20514767983764637,
+            "value_range": [
+                -14282961.4524,
+                8965174.485
+            ],
+            "description": "Field impai_ttm from fina_indicator.parquet"
+        },
+        "gc_of_gr": {
+            "category": "Dynamic Continuous",
+            "example_value": "50.3333",
+            "dtype": "Float64",
+            "missing_rate": 0.02841796340966952,
+            "value_range": [
+                -13337741.1193,
+                37049387.57
+            ],
+            "description": "Field gc_of_gr from fina_indicator.parquet"
+        },
+        "op_of_gr": {
+            "category": "Dynamic Continuous",
+            "example_value": "50.3509",
+            "dtype": "Float64",
+            "missing_rate": 0.008795168277848328,
+            "value_range": [
+                -37049287.57,
+                13369041.1505
+            ],
+            "description": "Field op_of_gr from fina_indicator.parquet"
+        },
+        "ebit_of_gr": {
+            "category": "Dynamic Continuous",
+            "example_value": "52.2746",
+            "dtype": "Float64",
+            "missing_rate": 0.027579460319967917,
+            "value_range": [
+                -22599835.3503,
+                82138751.2954
+            ],
+            "description": "Field ebit_of_gr from fina_indicator.parquet"
+        },
+        "roe": {
+            "category": "Dynamic Continuous",
+            "example_value": "6.2496",
+            "dtype": "Float64",
+            "missing_rate": 0.020868397547682268,
+            "value_range": [
+                -25067.0485,
+                7590.9617
+            ],
+            "description": "Field roe from fina_indicator.parquet"
+        },
+        "roe_waa": {
+            "category": "Dynamic Continuous",
+            "example_value": "1.8517",
+            "dtype": "Float64",
+            "missing_rate": 0.11705320848953998,
+            "value_range": [
+                -25346.35,
+                15990.28
+            ],
+            "description": "Field roe_waa from fina_indicator.parquet"
+        },
+        "roe_dt": {
+            "category": "Dynamic Continuous",
+            "example_value": "6.2203",
+            "dtype": "Float64",
+            "missing_rate": 0.05757113605016436,
+            "value_range": [
+                -24031.6551,
+                2643.5585
+            ],
+            "description": "Field roe_dt from fina_indicator.parquet"
+        },
+        "roa": {
+            "category": "Dynamic Continuous",
+            "example_value": "5.026",
+            "dtype": "Float64",
+            "missing_rate": 0.024987999684042313,
+            "value_range": [
+                -82844.0865,
+                1330569.4419
+            ],
+            "description": "Field roa from fina_indicator.parquet"
+        },
+        "npta": {
+            "category": "Dynamic Continuous",
+            "example_value": "4.5726",
+            "dtype": "Float64",
+            "missing_rate": 0.0060487668536082975,
+            "value_range": [
+                -332963.5877,
+                1330569.8016
+            ],
+            "description": "Field npta from fina_indicator.parquet"
+        },
+        "roic": {
+            "category": "Dynamic Continuous",
+            "example_value": "3.7253",
+            "dtype": "Float64",
+            "missing_rate": 0.033126948152558955,
+            "value_range": [
+                -171834.9973,
+                30438.6177
+            ],
+            "description": "Field roic from fina_indicator.parquet"
+        },
+        "roe_yearly": {
+            "category": "Dynamic Continuous",
+            "example_value": "24.9984",
+            "dtype": "Float64",
+            "missing_rate": 0.020868397547682268,
+            "value_range": [
+                -25613.3607,
+                7590.9617
+            ],
+            "description": "Field roe_yearly from fina_indicator.parquet"
+        },
+        "roa2_yearly": {
+            "category": "Dynamic Continuous",
+            "example_value": "20.104",
+            "dtype": "Float64",
+            "missing_rate": 0.024987999684042313,
+            "value_range": [
+                -110458.7544,
+                5322277.7676
+            ],
+            "description": "Field roa2_yearly from fina_indicator.parquet"
+        },
+        "debt_to_assets": {
+            "category": "Dynamic Continuous",
+            "example_value": "35.7228",
+            "dtype": "Float64",
+            "missing_rate": 0.037404529131906256,
+            "value_range": [
+                -68.3827,
+                79794141.737
+            ],
+            "description": "Field debt_to_assets from fina_indicator.parquet"
+        },
+        "assets_to_eqt": {
+            "category": "Dynamic Continuous",
+            "example_value": "1.5558",
+            "dtype": "Float64",
+            "missing_rate": 0.05254315556662758,
+            "value_range": [
+                0.5939,
+                11111.1111
+            ],
+            "description": "Field assets_to_eqt from fina_indicator.parquet"
+        },
+        "dp_assets_to_eqt": {
+            "category": "Dynamic Continuous",
+            "example_value": "2.1138",
+            "dtype": "Float64",
+            "missing_rate": 0.06712581799622067,
+            "value_range": [
+                0.0005,
+                3425.3151
+            ],
+            "description": "Field dp_assets_to_eqt from fina_indicator.parquet"
+        },
+        "ca_to_assets": {
+            "category": "Dynamic Continuous",
+            "example_value": "9.7018",
+            "dtype": "Float64",
+            "missing_rate": 0.05709416146652975,
+            "value_range": [
+                -11.5345,
+                242.7649
+            ],
+            "description": "Field ca_to_assets from fina_indicator.parquet"
+        },
+        "nca_to_assets": {
+            "category": "Dynamic Continuous",
+            "example_value": "90.2982",
+            "dtype": "Float64",
+            "missing_rate": 0.05721264559877019,
+            "value_range": [
+                -142.7649,
+                111.5345
+            ],
+            "description": "Field nca_to_assets from fina_indicator.parquet"
+        },
+        "tbassets_to_totalassets": {
+            "category": "Dynamic Continuous",
+            "example_value": "28.4139",
+            "dtype": "Float64",
+            "missing_rate": 0.05420800952733945,
+            "value_range": [
+                -79794041.737,
+                168.3827
+            ],
+            "description": "Field tbassets_to_totalassets from fina_indicator.parquet"
+        },
+        "int_to_talcap": {
+            "category": "Dynamic Continuous",
+            "example_value": "39.8196",
+            "dtype": "Float64",
+            "missing_rate": 0.06390851809769169,
+            "value_range": [
+                -129.1446,
+                445921.98
+            ],
+            "description": "Field int_to_talcap from fina_indicator.parquet"
+        },
+        "eqt_to_talcapital": {
+            "category": "Dynamic Continuous",
+            "example_value": "60.1804",
+            "dtype": "Float64",
+            "missing_rate": 0.06368370205190213,
+            "value_range": [
+                -445821.98,
+                249999900.0
+            ],
+            "description": "Field eqt_to_talcapital from fina_indicator.parquet"
+        },
+        "currentdebt_to_debt": {
+            "category": "Dynamic Continuous",
+            "example_value": "56.2291",
+            "dtype": "Float64",
+            "missing_rate": 0.05713973228662223,
+            "value_range": [
+                -80.9363,
+                491.027
+            ],
+            "description": "Field currentdebt_to_debt from fina_indicator.parquet"
+        },
+        "longdeb_to_debt": {
+            "category": "Dynamic Continuous",
+            "example_value": "43.7709",
+            "dtype": "Float64",
+            "missing_rate": 0.1156739316680743,
+            "value_range": [
+                -21.7465,
+                180.9363
+            ],
+            "description": "Field longdeb_to_debt from fina_indicator.parquet"
+        },
+        "ocf_to_shortdebt": {
+            "category": "Dynamic Continuous",
+            "example_value": "0.3278",
+            "dtype": "Float64",
+            "missing_rate": 0.05767746796371347,
+            "value_range": [
+                -3203.2703,
+                1338.7322
+            ],
+            "description": "Field ocf_to_shortdebt from fina_indicator.parquet"
+        },
+        "debt_to_eqt": {
+            "category": "Dynamic Continuous",
+            "example_value": "0.7459",
+            "dtype": "Float64",
+            "missing_rate": 0.05367938801426671,
+            "value_range": [
+                -493.9032,
+                6300.2463
+            ],
+            "description": "Field debt_to_eqt from fina_indicator.parquet"
+        },
+        "eqt_to_debt": {
+            "category": "Dynamic Continuous",
+            "example_value": "1.3406",
+            "dtype": "Float64",
+            "missing_rate": 0.03769618238049812,
+            "value_range": [
+                -1.1837,
+                2499999.0
+            ],
+            "description": "Field eqt_to_debt from fina_indicator.parquet"
+        },
+        "eqt_to_interestdebt": {
+            "category": "Dynamic Continuous",
+            "example_value": "1.5113",
+            "dtype": "Float64",
+            "missing_rate": 0.1623718700441733,
+            "value_range": [
+                -29084.977,
+                56600814735.0
+            ],
+            "description": "Field eqt_to_interestdebt from fina_indicator.parquet"
+        },
+        "tangibleasset_to_debt": {
+            "category": "Dynamic Continuous",
+            "example_value": "0.7954",
+            "dtype": "Float64",
+            "missing_rate": 0.05579083601188487,
+            "value_range": [
+                -1.3436,
+                2499999.0
+            ],
+            "description": "Field tangibleasset_to_debt from fina_indicator.parquet"
+        },
+        "tangasset_to_intdebt": {
+            "category": "Dynamic Continuous",
+            "example_value": "0.8967",
+            "dtype": "Float64",
+            "missing_rate": 0.1623718700441733,
+            "value_range": [
+                -19673218.7133,
+                53229557192.0
+            ],
+            "description": "Field tangasset_to_intdebt from fina_indicator.parquet"
+        },
+        "tangibleasset_to_netdebt": {
+            "category": "Dynamic Continuous",
+            "example_value": "0.9629",
+            "dtype": "Float64",
+            "missing_rate": 0.5239520230406066,
+            "value_range": [
+                -21747.8179,
+                2499999.0
+            ],
+            "description": "Field tangibleasset_to_netdebt from fina_indicator.parquet"
+        },
+        "ocf_to_debt": {
+            "category": "Dynamic Continuous",
+            "example_value": "0.1843",
+            "dtype": "Float64",
+            "missing_rate": 0.03909368753000079,
+            "value_range": [
+                -3203.2703,
+                1338.7322
+            ],
+            "description": "Field ocf_to_debt from fina_indicator.parquet"
+        },
+        "turn_days": {
+            "category": "Dynamic Continuous",
+            "example_value": "73.2749",
+            "dtype": "Float64",
+            "missing_rate": 0.05727340669222683,
+            "value_range": [
+                -847058.8235,
+                3636000.0
+            ],
+            "description": "Field turn_days from fina_indicator.parquet"
+        },
+        "roa_yearly": {
+            "category": "Dynamic Continuous",
+            "example_value": "18.2904",
+            "dtype": "Float64",
+            "missing_rate": 0.0060487668536082975,
+            "value_range": [
+                -780292.826,
+                5322279.2064
+            ],
+            "description": "Field roa_yearly from fina_indicator.parquet"
+        },
+        "roa_dp": {
+            "category": "Dynamic Continuous",
+            "example_value": "2.9565",
+            "dtype": "Float64",
+            "missing_rate": 0.051449455884408093,
+            "value_range": [
+                -195073.2065,
+                63795.1661
+            ],
+            "description": "Field roa_dp from fina_indicator.parquet"
+        },
+        "fixed_assets": {
+            "category": "Dynamic Continuous",
+            "example_value": "2058384332.0",
+            "dtype": "Float64",
+            "missing_rate": 0.040336251891189036,
+            "value_range": [
+                -34535546.58,
+                951410000000.0
+            ],
+            "description": "Field fixed_assets from fina_indicator.parquet"
+        },
+        "profit_to_op": {
+            "category": "Dynamic Continuous",
+            "example_value": "50.5209",
+            "dtype": "Float64",
+            "missing_rate": 0.009074669307748862,
+            "value_range": [
+                -37306954.195,
+                82162434.3185
+            ],
+            "description": "Field profit_to_op from fina_indicator.parquet"
+        },
+        "q_saleexp_to_gr": {
+            "category": "Dynamic Continuous",
+            "example_value": "4.4538",
+            "dtype": "Float64",
+            "missing_rate": 0.144757229051094,
+            "value_range": [
+                -29898333.3333,
+                678599250.0
+            ],
+            "description": "Field q_saleexp_to_gr from fina_indicator.parquet"
+        },
+        "q_gc_to_gr": {
+            "category": "Dynamic Continuous",
+            "example_value": "50.3333",
+            "dtype": "Float64",
+            "missing_rate": 0.1242473219548059,
+            "value_range": [
+                -13337741.1193,
+                1682179003700.0
+            ],
+            "description": "Field q_gc_to_gr from fina_indicator.parquet"
+        },
+        "q_roe": {
+            "category": "Dynamic Continuous",
+            "example_value": "6.2496",
+            "dtype": "Float64",
+            "missing_rate": 0.12217233061326171,
+            "value_range": [
+                -8252.3042,
+                5515.5455
+            ],
+            "description": "Field q_roe from fina_indicator.parquet"
+        },
+        "q_dt_roe": {
+            "category": "Dynamic Continuous",
+            "example_value": "6.2203",
+            "dtype": "Float64",
+            "missing_rate": 0.17194781837293943,
+            "value_range": [
+                -7603.7628,
+                1150.152
+            ],
+            "description": "Field q_dt_roe from fina_indicator.parquet"
+        },
+        "q_npta": {
+            "category": "Dynamic Continuous",
+            "example_value": "4.5726",
+            "dtype": "Float64",
+            "missing_rate": 0.1080241100018836,
+            "value_range": [
+                -195073.2065,
+                1330569.8016
+            ],
+            "description": "Field q_npta from fina_indicator.parquet"
+        },
+        "q_ocf_to_sales": {
+            "category": "Dynamic Continuous",
+            "example_value": "69.7605",
+            "dtype": "Float64",
+            "missing_rate": 0.11068848394995716,
+            "value_range": [
+                -75344792650.0,
+                3407322266.6667
+            ],
+            "description": "Field q_ocf_to_sales from fina_indicator.parquet"
+        },
+        "basic_eps_yoy": {
+            "category": "Dynamic Continuous",
+            "example_value": "114.2857",
+            "dtype": "Float64",
+            "missing_rate": 0.11253258313636612,
+            "value_range": [
+                -1041566.6667,
+                643900.0
+            ],
+            "description": "Field basic_eps_yoy from fina_indicator.parquet"
+        },
+        "dt_eps_yoy": {
+            "category": "Dynamic Continuous",
+            "example_value": "0.0",
+            "dtype": "Float64",
+            "missing_rate": 0.16081030994233772,
+            "value_range": [
+                -138466.6667,
+                643900.0
+            ],
+            "description": "Field dt_eps_yoy from fina_indicator.parquet"
+        },
+        "cfps_yoy": {
+            "category": "Dynamic Continuous",
+            "example_value": "132.5525",
+            "dtype": "Float64",
+            "missing_rate": 0.10287764538610637,
+            "value_range": [
+                -109422711689.1738,
+                758175.0
+            ],
+            "description": "Field cfps_yoy from fina_indicator.parquet"
+        },
+        "op_yoy": {
+            "category": "Dynamic Continuous",
+            "example_value": "61.4188",
+            "dtype": "Float64",
+            "missing_rate": 0.06697087720790623,
+            "value_range": [
+                -13875381.0764,
+                10634032.8355
+            ],
+            "description": "Field op_yoy from fina_indicator.parquet"
+        },
+        "ebt_yoy": {
+            "category": "Dynamic Continuous",
+            "example_value": "62.0306",
+            "dtype": "Float64",
+            "missing_rate": 0.06624782019577224,
+            "value_range": [
+                -12062330.272,
+                5831293135.5721
+            ],
+            "description": "Field ebt_yoy from fina_indicator.parquet"
+        },
+        "netprofit_yoy": {
+            "category": "Dynamic Continuous",
+            "example_value": "65.9953",
+            "dtype": "Float64",
+            "missing_rate": 0.06376572952806858,
+            "value_range": [
+                -3773746.9625,
+                5831293135.5721
+            ],
+            "description": "Field netprofit_yoy from fina_indicator.parquet"
+        },
+        "dt_netprofit_yoy": {
+            "category": "Dynamic Continuous",
+            "example_value": "9.7089",
+            "dtype": "Float64",
+            "missing_rate": 0.0954404875470139,
+            "value_range": [
+                -24036106.9091,
+                8830313.2443
+            ],
+            "description": "Field dt_netprofit_yoy from fina_indicator.parquet"
+        },
+        "ocf_yoy": {
+            "category": "Dynamic Continuous",
+            "example_value": "132.6081",
+            "dtype": "Float64",
+            "missing_rate": 0.06984183887373237,
+            "value_range": [
+                -2362751475.0347,
+                2045007326.98
+            ],
+            "description": "Field ocf_yoy from fina_indicator.parquet"
+        },
+        "roe_yoy": {
+            "category": "Dynamic Continuous",
+            "example_value": "29.471",
+            "dtype": "Float64",
+            "missing_rate": 0.1233146391702465,
+            "value_range": [
+                -12674042.7716,
+                1294662.4684
+            ],
+            "description": "Field roe_yoy from fina_indicator.parquet"
+        },
+        "bps_yoy": {
+            "category": "Dynamic Continuous",
+            "example_value": "6.4295",
+            "dtype": "Float64",
+            "missing_rate": 0.05620704950206284,
+            "value_range": [
+                -19595.0,
+                663838.9937
+            ],
+            "description": "Field bps_yoy from fina_indicator.parquet"
+        },
+        "assets_yoy": {
+            "category": "Dynamic Continuous",
+            "example_value": "3.8058",
+            "dtype": "Float64",
+            "missing_rate": 0.048745587225587715,
+            "value_range": [
+                -100.0,
+                9673065.0874
+            ],
+            "description": "Field assets_yoy from fina_indicator.parquet"
+        },
+        "eqt_yoy": {
+            "category": "Dynamic Continuous",
+            "example_value": "6.4512",
+            "dtype": "Float64",
+            "missing_rate": 0.049395730925573735,
+            "value_range": [
+                -18822.5029,
+                88444.0384
+            ],
+            "description": "Field eqt_yoy from fina_indicator.parquet"
+        },
+        "tr_yoy": {
+            "category": "Dynamic Continuous",
+            "example_value": "48.8789",
+            "dtype": "Float64",
+            "missing_rate": 0.06721999769107845,
+            "value_range": [
+                -174.732,
+                6998082.2774
+            ],
+            "description": "Field tr_yoy from fina_indicator.parquet"
+        },
+        "or_yoy": {
+            "category": "Dynamic Continuous",
+            "example_value": "48.8789",
+            "dtype": "Float64",
+            "missing_rate": 0.06752380315836164,
+            "value_range": [
+                -174.732,
+                6998082.2774
+            ],
+            "description": "Field or_yoy from fina_indicator.parquet"
+        },
+        "q_sales_yoy": {
+            "category": "Dynamic Continuous",
+            "example_value": "48.8789",
+            "dtype": "Float64",
+            "missing_rate": 0.16795581453283834,
+            "value_range": [
+                -70118.0181,
+                85890982250.0
+            ],
+            "description": "Field q_sales_yoy from fina_indicator.parquet"
+        },
+        "q_op_qoq": {
+            "category": "Dynamic Continuous",
+            "example_value": "-9.4986",
+            "dtype": "Float64",
+            "missing_rate": 0.11650635864843023,
+            "value_range": [
+                -19177692.977,
+                10034437.7889
+            ],
+            "description": "Field q_op_qoq from fina_indicator.parquet"
+        },
+        "equity_yoy": {
+            "category": "Dynamic Continuous",
+            "example_value": "28.2104",
+            "dtype": "Float64",
+            "missing_rate": 0.10535973605381002,
+            "value_range": [
+                -15071444.8697,
+                1472759.0216
+            ],
+            "description": "Field equity_yoy from fina_indicator.parquet"
+        },
+        "update_flag": {
+            "category": "Dynamic Continuous",
+            "example_value": "0",
+            "dtype": "String",
+            "missing_rate": 0.0,
+            "value_range": [
+                "0",
+                "1"
+            ],
+            "description": "Field update_flag from fina_indicator.parquet"
+        }
+    },
+    "raw_index_daily_basic_circ_mv": {
+        "l1_name": {
+            "category": "Dynamic Continuous",
+            "example_value": "家用电器",
+            "dtype": "String",
+            "missing_rate": 0.0,
+            "value_range": [
+                "交通运输",
+                "食品饮料"
+            ],
+            "description": "Field l1_name from index_daily_basic_circ_mv.parquet"
+        },
+        "ts_code": {
+            "category": "Index Key",
+            "example_value": "002011.SZ",
+            "dtype": "String",
+            "missing_rate": 0.0,
+            "value_range": [
+                "000001.SZ",
+                "920833.BJ"
+            ],
+            "description": "Stock code identifier (e.g., Code.Exchange)"
+        },
+        "trade_date": {
+            "category": "Index Key",
+            "example_value": "20050104",
+            "dtype": "String",
+            "missing_rate": 0.0,
+            "value_range": [
+                "20050104",
+                "20260313"
+            ],
+            "description": "Trading date in YYYYMMDD format"
+        },
+        "circ_mv": {
+            "category": "Dynamic Continuous",
+            "example_value": "23044.0",
+            "dtype": "Float32",
+            "missing_rate": 0.0,
+            "value_range": [
+                2183.60009765625,
+                326737056.0
+            ],
+            "description": "Field circ_mv from index_daily_basic_circ_mv.parquet"
+        },
+        "name": {
+            "category": "Dynamic Continuous",
+            "example_value": "盾安环境",
+            "dtype": "String",
+            "missing_rate": 0.052753828894933824,
+            "value_range": [
+                "None",
+                "None"
+            ],
+            "description": "Field name from index_daily_basic_circ_mv.parquet"
+        },
+        "industry": {
+            "category": "Dynamic Continuous",
+            "example_value": "家用电器",
+            "dtype": "String",
+            "missing_rate": 0.052753828894933824,
+            "value_range": [
+                "None",
+                "None"
+            ],
+            "description": "Field industry from index_daily_basic_circ_mv.parquet"
+        },
+        "market": {
+            "category": "Dynamic Continuous",
+            "example_value": "主板",
+            "dtype": "String",
+            "missing_rate": 0.052753828894933824,
+            "value_range": [
+                "None",
+                "None"
+            ],
+            "description": "Field market from index_daily_basic_circ_mv.parquet"
+        },
+        "list_date": {
+            "category": "Dynamic Continuous",
+            "example_value": "20040705",
+            "dtype": "String",
+            "missing_rate": 0.052753828894933824,
+            "value_range": [
+                "None",
+                "None"
+            ],
+            "description": "Field list_date from index_daily_basic_circ_mv.parquet"
+        },
+        "delist_date": {
+            "category": "Dynamic Continuous",
+            "example_value": null,
+            "dtype": "Null",
+            "missing_rate": 1.0,
+            "value_range": [
+                "None",
+                "None"
+            ],
+            "description": "Field delist_date from index_daily_basic_circ_mv.parquet"
+        }
+    },
+    "raw_index_member_all": {
+        "l1_code": {
+            "category": "Dynamic Continuous",
+            "example_value": "801880.SI",
+            "dtype": "String",
+            "missing_rate": 0.0,
+            "value_range": [
+                "801010.SI",
+                "801980.SI"
+            ],
+            "description": "Field l1_code from index_member_all.parquet"
+        },
+        "l1_name": {
+            "category": "Dynamic Continuous",
+            "example_value": "汽车",
+            "dtype": "String",
+            "missing_rate": 0.0,
+            "value_range": [
+                "交通运输",
+                "食品饮料"
+            ],
+            "description": "Field l1_name from index_member_all.parquet"
+        },
+        "l2_code": {
+            "category": "Dynamic Continuous",
+            "example_value": "801881.SI",
+            "dtype": "String",
+            "missing_rate": 0.0,
+            "value_range": [
+                "801011.SI",
+                "801995.SI"
+            ],
+            "description": "Field l2_code from index_member_all.parquet"
+        },
+        "l2_name": {
+            "category": "Dynamic Continuous",
+            "example_value": "摩托车及其他",
+            "dtype": "String",
+            "missing_rate": 0.0,
+            "value_range": [
+                "IT服务Ⅱ",
+                "黑色家电"
+            ],
+            "description": "Field l2_name from index_member_all.parquet"
+        },
+        "l3_code": {
+            "category": "Dynamic Continuous",
+            "example_value": "858811.SI",
+            "dtype": "String",
+            "missing_rate": 0.0,
+            "value_range": [
+                "850111.SI",
+                "859951.SI"
+            ],
+            "description": "Field l3_code from index_member_all.parquet"
+        },
+        "l3_name": {
+            "category": "Dynamic Continuous",
+            "example_value": "其他运输设备",
+            "dtype": "String",
+            "missing_rate": 0.0,
+            "value_range": [
+                "IT服务Ⅲ",
+                "黄金"
+            ],
+            "description": "Field l3_name from index_member_all.parquet"
+        },
+        "ts_code": {
+            "category": "Index Key",
+            "example_value": "600679.SH",
+            "dtype": "String",
+            "missing_rate": 0.0,
+            "value_range": [
+                "000001.SZ",
+                "920833.BJ"
+            ],
+            "description": "Stock code identifier (e.g., Code.Exchange)"
+        },
+        "name": {
+            "category": "Dynamic Continuous",
+            "example_value": "上海凤凰",
+            "dtype": "String",
+            "missing_rate": 0.0,
+            "value_range": [
+                "*ST三圣",
+                "龙韵股份"
+            ],
+            "description": "Field name from index_member_all.parquet"
+        },
+        "in_date": {
+            "category": "Dynamic Continuous",
+            "example_value": "19931008",
+            "dtype": "String",
+            "missing_rate": 0.0,
+            "value_range": [
+                "19891101",
+                "20250912"
+            ],
+            "description": "Field in_date from index_member_all.parquet"
+        },
+        "out_date": {
+            "category": "Dynamic Continuous",
+            "example_value": null,
+            "dtype": "Null",
+            "missing_rate": 1.0,
+            "value_range": [
+                "None",
+                "None"
+            ],
+            "description": "Field out_date from index_member_all.parquet"
+        },
+        "is_new": {
+            "category": "Dynamic Continuous",
+            "example_value": "Y",
+            "dtype": "String",
+            "missing_rate": 0.0,
+            "value_range": [
+                "Y",
+                "Y"
+            ],
+            "description": "Field is_new from index_member_all.parquet"
+        }
+    },
+    "raw_moneyflow": {
+        "ts_code": {
+            "category": "Index Key",
+            "example_value": "600522.SH",
+            "dtype": "String",
+            "missing_rate": 0.0,
+            "value_range": [
+                "000001.SZ",
+                "920992.BJ"
+            ],
+            "description": "Stock code identifier (e.g., Code.Exchange)"
+        },
+        "trade_date": {
+            "category": "Index Key",
+            "example_value": "20100104",
+            "dtype": "String",
+            "missing_rate": 0.0,
+            "value_range": [
+                "20100104",
+                "20260313"
+            ],
+            "description": "Trading date in YYYYMMDD format"
+        },
+        "buy_sm_vol": {
+            "category": "Dynamic Continuous",
+            "example_value": "11036.0",
+            "dtype": "Float32",
+            "missing_rate": 6.959109916372451e-06,
+            "value_range": [
+                0.0,
+                18005940.0
+            ],
+            "description": "Field buy_sm_vol from moneyflow.parquet"
+        },
+        "buy_sm_amount": {
+            "category": "Dynamic Continuous",
+            "example_value": "2772.8701171875",
+            "dtype": "Float32",
+            "missing_rate": 6.959109916372451e-06,
+            "value_range": [
+                0.0,
+                1702926.625
+            ],
+            "description": "Field buy_sm_amount from moneyflow.parquet"
+        },
+        "sell_sm_vol": {
+            "category": "Dynamic Continuous",
+            "example_value": "16192.0",
+            "dtype": "Float32",
+            "missing_rate": 1.7958993332574068e-06,
+            "value_range": [
+                0.0,
+                27733352.0
+            ],
+            "description": "Field sell_sm_vol from moneyflow.parquet"
+        },
+        "sell_sm_amount": {
+            "category": "Dynamic Continuous",
+            "example_value": "4081.030029296875",
+            "dtype": "Float32",
+            "missing_rate": 1.7958993332574068e-06,
+            "value_range": [
+                0.0,
+                1440350.25
+            ],
+            "description": "Field sell_sm_amount from moneyflow.parquet"
+        },
+        "buy_md_vol": {
+            "category": "Dynamic Continuous",
+            "example_value": "27654.0",
+            "dtype": "Float32",
+            "missing_rate": 1.0027104610687187e-05,
+            "value_range": [
+                0.0,
+                17009056.0
+            ],
+            "description": "Field buy_md_vol from moneyflow.parquet"
+        },
+        "buy_md_amount": {
+            "category": "Dynamic Continuous",
+            "example_value": "6964.56005859375",
+            "dtype": "Float32",
+            "missing_rate": 1.0027104610687187e-05,
+            "value_range": [
+                0.0,
+                2381840.0
+            ],
+            "description": "Field buy_md_amount from moneyflow.parquet"
+        },
+        "sell_md_vol": {
+            "category": "Dynamic Continuous",
+            "example_value": "24054.0",
+            "dtype": "Float32",
+            "missing_rate": 2.095215888800308e-06,
+            "value_range": [
+                0.0,
+                13920066.0
+            ],
+            "description": "Field sell_md_vol from moneyflow.parquet"
+        },
+        "sell_md_amount": {
+            "category": "Dynamic Continuous",
+            "example_value": "6057.419921875",
+            "dtype": "Float32",
+            "missing_rate": 2.095215888800308e-06,
+            "value_range": [
+                0.0,
+                1865456.0
+            ],
+            "description": "Field sell_md_amount from moneyflow.parquet"
+        },
+        "buy_lg_vol": {
+            "category": "Dynamic Continuous",
+            "example_value": "17309.0",
+            "dtype": "Float32",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                12645155.0
+            ],
+            "description": "Field buy_lg_vol from moneyflow.parquet"
+        },
+        "buy_lg_amount": {
+            "category": "Dynamic Continuous",
+            "example_value": "4353.7099609375",
+            "dtype": "Float32",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                2789789.5
+            ],
+            "description": "Field buy_lg_amount from moneyflow.parquet"
+        },
+        "sell_lg_vol": {
+            "category": "Dynamic Continuous",
+            "example_value": "15339.0",
+            "dtype": "Float32",
+            "missing_rate": 0.00047523986106324124,
+            "value_range": [
+                0.0,
+                14661999.0
+            ],
+            "description": "Field sell_lg_vol from moneyflow.parquet"
+        },
+        "sell_lg_amount": {
+            "category": "Dynamic Continuous",
+            "example_value": "3859.389892578125",
+            "dtype": "Float32",
+            "missing_rate": 0.00047523986106324124,
+            "value_range": [
+                0.0,
+                2638338.0
+            ],
+            "description": "Field sell_lg_amount from moneyflow.parquet"
+        },
+        "buy_elg_vol": {
+            "category": "Dynamic Continuous",
+            "example_value": "4131.0",
+            "dtype": "Float32",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                23535748.0
+            ],
+            "description": "Field buy_elg_vol from moneyflow.parquet"
+        },
+        "buy_elg_amount": {
+            "category": "Dynamic Continuous",
+            "example_value": "1038.1199951171875",
+            "dtype": "Float32",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                5032358.5
+            ],
+            "description": "Field buy_elg_amount from moneyflow.parquet"
+        },
+        "sell_elg_vol": {
+            "category": "Dynamic Continuous",
+            "example_value": "4544.0",
+            "dtype": "Float32",
+            "missing_rate": 0.023702054912914595,
+            "value_range": [
+                0.0,
+                19407164.0
+            ],
+            "description": "Field sell_elg_vol from moneyflow.parquet"
+        },
+        "sell_elg_amount": {
+            "category": "Dynamic Continuous",
+            "example_value": "1131.43994140625",
+            "dtype": "Float32",
+            "missing_rate": 0.023702054912914595,
+            "value_range": [
+                0.0,
+                4109249.0
+            ],
+            "description": "Field sell_elg_amount from moneyflow.parquet"
+        },
+        "net_mf_vol": {
+            "category": "Dynamic Continuous",
+            "example_value": "16320.0",
+            "dtype": "Float32",
+            "missing_rate": 0.026182341550420846,
+            "value_range": [
+                -11718710.0,
+                8705808.0
+            ],
+            "description": "Field net_mf_vol from moneyflow.parquet"
+        },
+        "net_mf_amount": {
+            "category": "Dynamic Continuous",
+            "example_value": "4110.10009765625",
+            "dtype": "Float32",
+            "missing_rate": 0.026182341550420846,
+            "value_range": [
+                -1712911.75,
+                887634.9375
+            ],
+            "description": "Field net_mf_amount from moneyflow.parquet"
+        }
+    },
+    "raw_stk_60_mins": {
+        "ts_code": {
+            "category": "Index Key",
+            "example_value": "000016.SZ",
+            "dtype": "String",
+            "missing_rate": 0.0,
+            "value_range": [
+                "000001.SZ",
+                "920992.BJ"
+            ],
+            "description": "Stock code identifier (e.g., Code.Exchange)"
+        },
+        "trade_time": {
+            "category": "Dynamic Continuous",
+            "example_value": "2010-01-29 15:00:00",
+            "dtype": "String",
+            "missing_rate": 0.0,
+            "value_range": [
+                "2010-01-04 09:30:00",
+                "2026-03-13 15:00:00"
+            ],
+            "description": "Trading timestamp (for minute data)"
+        },
+        "close": {
+            "category": "Dynamic Continuous",
+            "example_value": "7.269999980926514",
+            "dtype": "Float32",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                2601.0
+            ],
+            "description": "Field close from stk_60_mins.parquet"
+        },
+        "open": {
+            "category": "Dynamic Continuous",
+            "example_value": "7.340000152587891",
+            "dtype": "Float32",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                2589.0
+            ],
+            "description": "Field open from stk_60_mins.parquet"
+        },
+        "high": {
+            "category": "Dynamic Continuous",
+            "example_value": "7.340000152587891",
+            "dtype": "Float32",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                2627.0
+            ],
+            "description": "Field high from stk_60_mins.parquet"
+        },
+        "low": {
+            "category": "Dynamic Continuous",
+            "example_value": "7.25",
+            "dtype": "Float32",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                2587.97998046875
+            ],
+            "description": "Field low from stk_60_mins.parquet"
+        },
+        "vol": {
+            "category": "Dynamic Continuous",
+            "example_value": "1832851.0",
+            "dtype": "Float32",
+            "missing_rate": 0.0,
+            "value_range": [
+                -931186.0,
+                47474917376.0
+            ],
+            "description": "Field vol from stk_60_mins.parquet"
+        },
+        "amount": {
+            "category": "Dynamic Continuous",
+            "example_value": "13336399.0",
+            "dtype": "Float32",
+            "missing_rate": 0.0,
+            "value_range": [
+                -33596968.0,
+                45236875264.0
+            ],
+            "description": "Field amount from stk_60_mins.parquet"
+        }
+    },
+    "raw_stk_limit": {
+        "trade_date": {
+            "category": "Index Key",
+            "example_value": "20100104",
+            "dtype": "String",
+            "missing_rate": 0.0,
+            "value_range": [
+                "20100104",
+                "20260323"
+            ],
+            "description": "Trading date in YYYYMMDD format"
+        },
+        "ts_code": {
+            "category": "Index Key",
+            "example_value": "000001.SZ",
+            "dtype": "String",
+            "missing_rate": 0.0,
+            "value_range": [
+                "000001.SZ",
+                "920992.BJ"
+            ],
+            "description": "Stock code identifier (e.g., Code.Exchange)"
+        },
+        "up_limit": {
+            "category": "Dynamic Continuous",
+            "example_value": "26.809999465942383",
+            "dtype": "Float32",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                1000000.0
+            ],
+            "description": "Daily price upper limit"
+        },
+        "down_limit": {
+            "category": "Dynamic Continuous",
+            "example_value": "21.93000030517578",
+            "dtype": "Float32",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                2340.89990234375
+            ],
+            "description": "Daily price lower limit"
+        }
+    },
+    "raw_stock_basic": {
+        "ts_code": {
+            "category": "Index Key",
+            "example_value": "000001.SZ",
+            "dtype": "String",
+            "missing_rate": 0.0,
+            "value_range": [
+                "000001.SZ",
+                "T00018.SH"
+            ],
+            "description": "Stock code identifier (e.g., Code.Exchange)"
+        }
+    },
+    "raw_suspend_d": {
+        "ts_code": {
+            "category": "Index Key",
+            "example_value": "000004.SZ",
+            "dtype": "String",
+            "missing_rate": 0.0,
+            "value_range": [
+                "000001.SZ",
+                "920680.BJ"
+            ],
+            "description": "Stock code identifier (e.g., Code.Exchange)"
+        },
+        "trade_date": {
+            "category": "Index Key",
+            "example_value": "20100104",
+            "dtype": "String",
+            "missing_rate": 0.0,
+            "value_range": [
+                "20100104",
+                "20260323"
+            ],
+            "description": "Trading date in YYYYMMDD format"
+        },
+        "suspend_timing": {
+            "category": "Dynamic Continuous",
+            "example_value": "09:30-10:30",
+            "dtype": "String",
+            "missing_rate": 0.9945783067932015,
+            "value_range": [
+                "None",
+                "None"
+            ],
+            "description": "Intraday suspension timing"
+        },
+        "suspend_type": {
+            "category": "Dynamic Continuous",
+            "example_value": "S",
+            "dtype": "String",
+            "missing_rate": 0.0,
+            "value_range": [
+                "R",
+                "S"
+            ],
+            "description": "Suspension type (S for Suspend, R for Resume)"
+        }
+    },
+    "feat_feature_A_price_volume": {
+        "ts_code": {
+            "category": "Index Key",
+            "example_value": "600874.SH",
+            "dtype": "String",
+            "missing_rate": 0.0,
+            "value_range": [
+                "000001.SZ",
+                "920992.BJ"
+            ],
+            "description": "Stock code identifier (e.g., Code.Exchange)"
+        },
+        "trade_date": {
+            "category": "Index Key",
+            "example_value": "20050104",
+            "dtype": "String",
+            "missing_rate": 0.0,
+            "value_range": [
+                "20050104",
+                "20260313"
+            ],
+            "description": "Trading date in YYYYMMDD format"
+        },
+        "ret_cc_1d_raw": {
+            "category": "Dynamic Continuous",
+            "example_value": "-0.009999990463256836",
+            "dtype": "Float64",
+            "missing_rate": 1.687611181160369e-05,
+            "value_range": [
+                -0.9644308686256409,
+                2004.0
+            ],
+            "description": "Field ret_cc_1d_raw from feature_A_price_volume.parquet"
+        },
+        "ret_cc_1d_robust": {
+            "category": "Dynamic Continuous",
+            "example_value": "-0.009999990463256836",
+            "dtype": "Float64",
+            "missing_rate": 1.5768413352927e-05,
+            "value_range": [
+                -0.9994121193885803,
+                3.808302818037968
+            ],
+            "description": "Field ret_cc_1d_robust from feature_A_price_volume.parquet"
+        },
+        "ret_oc_1d_raw": {
+            "category": "Dynamic Continuous",
+            "example_value": "-0.009999990463256836",
+            "dtype": "Float64",
+            "missing_rate": 1.4334921229933635e-06,
+            "value_range": [
+                -0.9473684430122375,
+                256.1428527832031
+            ],
+            "description": "Field ret_oc_1d_raw from feature_A_price_volume.parquet"
+        },
+        "ret_oc_1d_robust": {
+            "category": "Dynamic Continuous",
+            "example_value": "-0.009999990463256836",
+            "dtype": "Float64",
+            "missing_rate": 6.515873286333471e-08,
+            "value_range": [
+                -0.9993497729301453,
+                2.3641546589874176
+            ],
+            "description": "Field ret_oc_1d_robust from feature_A_price_volume.parquet"
+        },
+        "gap_open_raw": {
+            "category": "Dynamic Continuous",
+            "example_value": "0.0",
+            "dtype": "Float64",
+            "missing_rate": 1.687611181160369e-05,
+            "value_range": [
+                -0.996363639831543,
+                2004.0
+            ],
+            "description": "Field gap_open_raw from feature_A_price_volume.parquet"
+        },
+        "gap_open_robust": {
+            "category": "Dynamic Continuous",
+            "example_value": "0.0",
+            "dtype": "Float64",
+            "missing_rate": 1.5768413352927e-05,
+            "value_range": [
+                -0.9994121193885803,
+                3.5636208216614964
+            ],
+            "description": "Field gap_open_robust from feature_A_price_volume.parquet"
+        },
+        "intraday_range_raw": {
+            "category": "Dynamic Continuous",
+            "example_value": "0.016666650772094727",
+            "dtype": "Float64",
+            "missing_rate": 1.687611181160369e-05,
+            "value_range": [
+                0.0,
+                663.0
+            ],
+            "description": "Field intraday_range_raw from feature_A_price_volume.parquet"
+        },
+        "intraday_range_robust": {
+            "category": "Dynamic Continuous",
+            "example_value": "0.016666650772094727",
+            "dtype": "Float64",
+            "missing_rate": 1.5768413352927e-05,
+            "value_range": [
+                0.0,
+                2.2834143296557676
+            ],
+            "description": "Field intraday_range_robust from feature_A_price_volume.parquet"
+        },
+        "upper_shadow_ratio_raw": {
+            "category": "Dynamic Continuous",
+            "example_value": "0.0",
+            "dtype": "Float64",
+            "missing_rate": 0.006174832478526777,
+            "value_range": [
+                0.0,
+                1.0
+            ],
+            "description": "Field upper_shadow_ratio_raw from feature_A_price_volume.parquet"
+        },
+        "lower_shadow_ratio_raw": {
+            "category": "Dynamic Continuous",
+            "example_value": "0.4000000059604645",
+            "dtype": "Float64",
+            "missing_rate": 0.006174832478526777,
+            "value_range": [
+                0.0,
+                1.0
+            ],
+            "description": "Field lower_shadow_ratio_raw from feature_A_price_volume.parquet"
+        },
+        "turnover_free_raw": {
+            "category": "Dynamic Continuous",
+            "example_value": "0.011245000176131725",
+            "dtype": "Float32",
+            "missing_rate": 0.006101724380254115,
+            "value_range": [
+                0.0,
+                56.049705505371094
+            ],
+            "description": "Field turnover_free_raw from feature_A_price_volume.parquet"
+        },
+        "turnover_free_log": {
+            "category": "Dynamic Continuous",
+            "example_value": "0.01118224486708641",
+            "dtype": "Float32",
+            "missing_rate": 0.006101854697719841,
+            "value_range": [
+                9.999995427278918e-07,
+                4.0439229011535645
+            ],
+            "description": "Field turnover_free_log from feature_A_price_volume.parquet"
+        },
+        "volume_ratio_raw": {
+            "category": "Dynamic Continuous",
+            "example_value": "2.390000104904175",
+            "dtype": "Float32",
+            "missing_rate": 0.007480678643840868,
+            "value_range": [
+                0.0,
+                18459.2109375
+            ],
+            "description": "Field volume_ratio_raw from feature_A_price_volume.parquet"
+        },
+        "volume_ratio_ln": {
+            "category": "Dynamic Continuous",
+            "example_value": "1.220829963684082",
+            "dtype": "Float32",
+            "missing_rate": 0.007531176661809952,
+            "value_range": [
+                0.00995033048093319,
+                9.823372840881348
+            ],
+            "description": "Log volume ratio"
+        },
+        "ret_cc_1d_suspect_flag": {
+            "category": "Dynamic Continuous",
+            "example_value": "0",
+            "dtype": "Int8",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                1.0
+            ],
+            "description": "Field ret_cc_1d_suspect_flag from feature_A_price_volume.parquet"
+        },
+        "ret_oc_1d_suspect_flag": {
+            "category": "Dynamic Continuous",
+            "example_value": "0",
+            "dtype": "Int8",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                1.0
+            ],
+            "description": "Field ret_oc_1d_suspect_flag from feature_A_price_volume.parquet"
+        },
+        "ohlc_invalid_flag": {
+            "category": "Dynamic Continuous",
+            "example_value": "0",
+            "dtype": "Int8",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                1.0
+            ],
+            "description": "Field ohlc_invalid_flag from feature_A_price_volume.parquet"
+        },
+        "ret_cc_1d_market_extreme_flag": {
+            "category": "Dynamic Continuous",
+            "example_value": "0",
+            "dtype": "Int8",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                1.0
+            ],
+            "description": "Field ret_cc_1d_market_extreme_flag from feature_A_price_volume.parquet"
+        },
+        "ret_cc_1d_likely_dirty_flag": {
+            "category": "Dynamic Continuous",
+            "example_value": "0",
+            "dtype": "Int8",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                1.0
+            ],
+            "description": "Field ret_cc_1d_likely_dirty_flag from feature_A_price_volume.parquet"
+        },
+        "tiny_preclose_flag": {
+            "category": "Dynamic Continuous",
+            "example_value": "0",
+            "dtype": "Int8",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                1.0
+            ],
+            "description": "Field tiny_preclose_flag from feature_A_price_volume.parquet"
+        },
+        "ret_oc_1d_market_extreme_flag": {
+            "category": "Dynamic Continuous",
+            "example_value": "0",
+            "dtype": "Int8",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                1.0
+            ],
+            "description": "Field ret_oc_1d_market_extreme_flag from feature_A_price_volume.parquet"
+        },
+        "ret_oc_1d_likely_dirty_flag": {
+            "category": "Dynamic Continuous",
+            "example_value": "0",
+            "dtype": "Int8",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                1.0
+            ],
+            "description": "Field ret_oc_1d_likely_dirty_flag from feature_A_price_volume.parquet"
+        },
+        "tiny_open_flag": {
+            "category": "Dynamic Continuous",
+            "example_value": "0",
+            "dtype": "Int8",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                1.0
+            ],
+            "description": "Field tiny_open_flag from feature_A_price_volume.parquet"
+        },
+        "range_too_small_flag": {
+            "category": "Dynamic Continuous",
+            "example_value": "0",
+            "dtype": "Int8",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                1.0
+            ],
+            "description": "Field range_too_small_flag from feature_A_price_volume.parquet"
+        }
+    },
+    "feat_feature_B_moneyflow": {
+        "ts_code": {
+            "category": "Index Key",
+            "example_value": "000798.SZ",
+            "dtype": "String",
+            "missing_rate": 0.0,
+            "value_range": [
+                "000001.SZ",
+                "920992.BJ"
+            ],
+            "description": "Stock code identifier (e.g., Code.Exchange)"
+        },
+        "trade_date": {
+            "category": "Index Key",
+            "example_value": "20100104",
+            "dtype": "String",
+            "missing_rate": 0.0,
+            "value_range": [
+                "20100104",
+                "20260313"
+            ],
+            "description": "Trading date in YYYYMMDD format"
+        },
+        "imb_sm_amt_valid": {
+            "category": "Dynamic Continuous",
+            "example_value": "0.0033295745961368084",
+            "dtype": "Float64",
+            "missing_rate": 0.023382303375138525,
+            "value_range": [
+                -1.0,
+                1.0
+            ],
+            "description": "Field imb_sm_amt_valid from feature_B_moneyflow.parquet"
+        },
+        "imb_md_amt_valid": {
+            "category": "Dynamic Continuous",
+            "example_value": "0.06640475243330002",
+            "dtype": "Float64",
+            "missing_rate": 0.023954015166330642,
+            "value_range": [
+                -1.0,
+                1.0
+            ],
+            "description": "Field imb_md_amt_valid from feature_B_moneyflow.parquet"
+        },
+        "imb_lg_amt_valid": {
+            "category": "Dynamic Continuous",
+            "example_value": "-0.22021423280239105",
+            "dtype": "Float64",
+            "missing_rate": 0.02799107653118347,
+            "value_range": [
+                -1.0,
+                1.0
+            ],
+            "description": "Field imb_lg_amt_valid from feature_B_moneyflow.parquet"
+        },
+        "imb_elg_amt_valid": {
+            "category": "Dynamic Continuous",
+            "example_value": "0.7102895975112915",
+            "dtype": "Float64",
+            "missing_rate": 0.2772704258891094,
+            "value_range": [
+                -1.0,
+                1.0
+            ],
+            "description": "Field imb_elg_amt_valid from feature_B_moneyflow.parquet"
+        },
+        "net_mf_to_amount_valid": {
+            "category": "Dynamic Continuous",
+            "example_value": "0.13029293715953827",
+            "dtype": "Float64",
+            "missing_rate": 0.048940151721771116,
+            "value_range": [
+                -1.1474369764328003,
+                2.5505263805389404
+            ],
+            "description": "Field net_mf_to_amount_valid from feature_B_moneyflow.parquet"
+        },
+        "net_mf_to_amount_robust": {
+            "category": "Dynamic Continuous",
+            "example_value": "0.13029293715953827",
+            "dtype": "Float64",
+            "missing_rate": 0.048940151721771116,
+            "value_range": [
+                -0.9100495883681136,
+                0.7991920454843183
+            ],
+            "description": "Field net_mf_to_amount_robust from feature_B_moneyflow.parquet"
+        },
+        "large_buy_share_valid": {
+            "category": "Dynamic Continuous",
+            "example_value": "0.1210700124502182",
+            "dtype": "Float64",
+            "missing_rate": 0.02337046427119207,
+            "value_range": [
+                0.0,
+                1.0
+            ],
+            "description": "Field large_buy_share_valid from feature_B_moneyflow.parquet"
+        },
+        "large_sell_share_valid": {
+            "category": "Dynamic Continuous",
+            "example_value": "0.28204473853111267",
+            "dtype": "Float64",
+            "missing_rate": 0.04652914012734199,
+            "value_range": [
+                0.0,
+                1.0
+            ],
+            "description": "Field large_sell_share_valid from feature_B_moneyflow.parquet"
+        },
+        "flow_divergence_valid": {
+            "category": "Dynamic Continuous",
+            "example_value": "0.14782437682151794",
+            "dtype": "Float64",
+            "missing_rate": 0.04652804391401361,
+            "value_range": [
+                -1.058823585510254,
+                1.059328556060791
+            ],
+            "description": "Field flow_divergence_valid from feature_B_moneyflow.parquet"
+        },
+        "amount_nonpositive_flag": {
+            "category": "Dynamic Continuous",
+            "example_value": "0",
+            "dtype": "Int8",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                0.0
+            ],
+            "description": "Field amount_nonpositive_flag from feature_B_moneyflow.parquet"
+        },
+        "imb_elg_amt_missing_input_flag": {
+            "category": "Dynamic Continuous",
+            "example_value": "1",
+            "dtype": "Int8",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                1.0
+            ],
+            "description": "Field imb_elg_amt_missing_input_flag from feature_B_moneyflow.parquet"
+        },
+        "imb_elg_amt_den_zero_flag": {
+            "category": "Dynamic Continuous",
+            "example_value": "0",
+            "dtype": "Int8",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                1.0
+            ],
+            "description": "Field imb_elg_amt_den_zero_flag from feature_B_moneyflow.parquet"
+        },
+        "imb_elg_amt_micro_den_flag": {
+            "category": "Dynamic Continuous",
+            "example_value": "0",
+            "dtype": "Int8",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                1.0
+            ],
+            "description": "Field imb_elg_amt_micro_den_flag from feature_B_moneyflow.parquet"
+        },
+        "imb_elg_amt_small_den_flag": {
+            "category": "Dynamic Continuous",
+            "example_value": "0",
+            "dtype": "Int8",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                1.0
+            ],
+            "description": "Field imb_elg_amt_small_den_flag from feature_B_moneyflow.parquet"
+        },
+        "large_buy_share_out_of_domain_flag": {
+            "category": "Dynamic Continuous",
+            "example_value": "0",
+            "dtype": "Int8",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                1.0
+            ],
+            "description": "Field large_buy_share_out_of_domain_flag from feature_B_moneyflow.parquet"
+        },
+        "large_sell_share_out_of_domain_flag": {
+            "category": "Dynamic Continuous",
+            "example_value": "0",
+            "dtype": "Int8",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                1.0
+            ],
+            "description": "Field large_sell_share_out_of_domain_flag from feature_B_moneyflow.parquet"
+        },
+        "buy_elg_amount_missing_flag": {
+            "category": "Dynamic Continuous",
+            "example_value": "1",
+            "dtype": "Int8",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                1.0
+            ],
+            "description": "Field buy_elg_amount_missing_flag from feature_B_moneyflow.parquet"
+        },
+        "buy_elg_amount_zero_flag": {
+            "category": "Dynamic Continuous",
+            "example_value": "0",
+            "dtype": "Int8",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                1.0
+            ],
+            "description": "Field buy_elg_amount_zero_flag from feature_B_moneyflow.parquet"
+        },
+        "buy_elg_amount_no_activity_but_traded_flag": {
+            "category": "Dynamic Continuous",
+            "example_value": "0",
+            "dtype": "Int8",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                1.0
+            ],
+            "description": "Field buy_elg_amount_no_activity_but_traded_flag from feature_B_moneyflow.parquet"
+        },
+        "sell_elg_amount_missing_flag": {
+            "category": "Dynamic Continuous",
+            "example_value": "1",
+            "dtype": "Int8",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                1.0
+            ],
+            "description": "Field sell_elg_amount_missing_flag from feature_B_moneyflow.parquet"
+        },
+        "sell_elg_amount_zero_flag": {
+            "category": "Dynamic Continuous",
+            "example_value": "0",
+            "dtype": "Int8",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                1.0
+            ],
+            "description": "Field sell_elg_amount_zero_flag from feature_B_moneyflow.parquet"
+        },
+        "sell_elg_amount_no_activity_but_traded_flag": {
+            "category": "Dynamic Continuous",
+            "example_value": "0",
+            "dtype": "Int8",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                1.0
+            ],
+            "description": "Field sell_elg_amount_no_activity_but_traded_flag from feature_B_moneyflow.parquet"
+        }
+    },
+    "feat_feature_C_chip": {
+        "ts_code": {
+            "category": "Index Key",
+            "example_value": "603180.SH",
+            "dtype": "String",
+            "missing_rate": 0.0,
+            "value_range": [
+                "000001.SZ",
+                "920992.BJ"
+            ],
+            "description": "Stock code identifier (e.g., Code.Exchange)"
+        },
+        "trade_date": {
+            "category": "Index Key",
+            "example_value": "20180102",
+            "dtype": "String",
+            "missing_rate": 0.0,
+            "value_range": [
+                "20180102",
+                "20260313"
+            ],
+            "description": "Trading date in YYYYMMDD format"
+        },
+        "close_vs_cost50_valid": {
+            "category": "Dynamic Continuous",
+            "example_value": "1.341710090637207",
+            "dtype": "Float64",
+            "missing_rate": 0.029612179646472177,
+            "value_range": [
+                -0.9496479034423828,
+                17.911907196044922
+            ],
+            "description": "Field close_vs_cost50_valid from feature_C_chip.parquet"
+        },
+        "close_vs_cost50_robust": {
+            "category": "Dynamic Continuous",
+            "example_value": "1.341710090637207",
+            "dtype": "Float64",
+            "missing_rate": 0.029612179646472177,
+            "value_range": [
+                -0.9496479034423828,
+                2.3428091802175883
+            ],
+            "description": "Field close_vs_cost50_robust from feature_C_chip.parquet"
+        },
+        "close_vs_weight_avg_valid": {
+            "category": "Dynamic Continuous",
+            "example_value": "1.3883943557739258",
+            "dtype": "Float64",
+            "missing_rate": 0.029607209714560243,
+            "value_range": [
+                -0.923541247844696,
+                17.911907196044922
+            ],
+            "description": "Field close_vs_weight_avg_valid from feature_C_chip.parquet"
+        },
+        "close_vs_weight_avg_robust": {
+            "category": "Dynamic Continuous",
+            "example_value": "1.3883943557739258",
+            "dtype": "Float64",
+            "missing_rate": 0.029607209714560243,
+            "value_range": [
+                -0.923541247844696,
+                2.3324112933574277
+            ],
+            "description": "Field close_vs_weight_avg_robust from feature_C_chip.parquet"
+        },
+        "chip_width_95_5_valid": {
+            "category": "Dynamic Continuous",
+            "example_value": "0.2041884958744049",
+            "dtype": "Float64",
+            "missing_rate": 0.029612179646472177,
+            "value_range": [
+                0.0,
+                32.5
+            ],
+            "description": "Field chip_width_95_5_valid from feature_C_chip.parquet"
+        },
+        "chip_width_85_15_valid": {
+            "category": "Dynamic Continuous",
+            "example_value": "0.12041887640953064",
+            "dtype": "Float64",
+            "missing_rate": 0.029612179646472177,
+            "value_range": [
+                0.0,
+                30.999998092651367
+            ],
+            "description": "Field chip_width_85_15_valid from feature_C_chip.parquet"
+        },
+        "overhang_95_valid": {
+            "category": "Dynamic Continuous",
+            "example_value": "-0.5461320281028748",
+            "dtype": "Float64",
+            "missing_rate": 0.029612179646472177,
+            "value_range": [
+                -0.9420874118804932,
+                33.82926940917969
+            ],
+            "description": "Field overhang_95_valid from feature_C_chip.parquet"
+        },
+        "support_5_valid": {
+            "category": "Dynamic Continuous",
+            "example_value": "0.633328378200531",
+            "dtype": "Float64",
+            "missing_rate": 0.029612179646472177,
+            "value_range": [
+                -5.562500476837158,
+                0.9836905598640442
+            ],
+            "description": "Field support_5_valid from feature_C_chip.parquet"
+        },
+        "winner_rate_pct_raw": {
+            "category": "Dynamic Continuous",
+            "example_value": "0.572700023651123",
+            "dtype": "Float32",
+            "missing_rate": 0.029607209714560243,
+            "value_range": [
+                0.0,
+                1.0062000751495361
+            ],
+            "description": "Field winner_rate_pct_raw from feature_C_chip.parquet"
+        },
+        "winner_rate_pct_capped": {
+            "category": "Dynamic Continuous",
+            "example_value": "0.572700023651123",
+            "dtype": "Float32",
+            "missing_rate": 0.029607209714560243,
+            "value_range": [
+                0.0,
+                1.0
+            ],
+            "description": "Field winner_rate_pct_capped from feature_C_chip.parquet"
+        },
+        "price_pos_hist_valid": {
+            "category": "Dynamic Continuous",
+            "example_value": "0.8704861402511597",
+            "dtype": "Float64",
+            "missing_rate": 0.08200785249242086,
+            "value_range": [
+                -0.009999990463256836,
+                1.0099999904632568
+            ],
+            "description": "Field price_pos_hist_valid from feature_C_chip.parquet"
+        },
+        "chip_cost_monotonic_ok": {
+            "category": "Dynamic Continuous",
+            "example_value": "1",
+            "dtype": "Int8",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                1.0
+            ],
+            "description": "Field chip_cost_monotonic_ok from feature_C_chip.parquet"
+        },
+        "chip_cost_any_missing": {
+            "category": "Dynamic Continuous",
+            "example_value": "0",
+            "dtype": "Int8",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                1.0
+            ],
+            "description": "Field chip_cost_any_missing from feature_C_chip.parquet"
+        },
+        "chip_cost_nonpositive_flag": {
+            "category": "Dynamic Continuous",
+            "example_value": "0",
+            "dtype": "Int8",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                1.0
+            ],
+            "description": "Field chip_cost_nonpositive_flag from feature_C_chip.parquet"
+        },
+        "winner_rate_out_of_domain_flag": {
+            "category": "Dynamic Continuous",
+            "example_value": "0",
+            "dtype": "Int8",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                1.0
+            ],
+            "description": "Field winner_rate_out_of_domain_flag from feature_C_chip.parquet"
+        },
+        "hist_range_zero_flag": {
+            "category": "Dynamic Continuous",
+            "example_value": "0",
+            "dtype": "Int8",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                1.0
+            ],
+            "description": "Field hist_range_zero_flag from feature_C_chip.parquet"
+        },
+        "hist_range_small_flag": {
+            "category": "Dynamic Continuous",
+            "example_value": "0",
+            "dtype": "Int8",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                1.0
+            ],
+            "description": "Field hist_range_small_flag from feature_C_chip.parquet"
+        },
+        "his_low_nonpositive_flag": {
+            "category": "Dynamic Continuous",
+            "example_value": "0",
+            "dtype": "Int8",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                1.0
+            ],
+            "description": "Field his_low_nonpositive_flag from feature_C_chip.parquet"
+        },
+        "price_pos_hist_out_of_domain_flag": {
+            "category": "Dynamic Continuous",
+            "example_value": "1",
+            "dtype": "Int8",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                1.0
+            ],
+            "description": "Field price_pos_hist_out_of_domain_flag from feature_C_chip.parquet"
+        },
+        "close_vs_cost50_den_invalid_flag": {
+            "category": "Dynamic Continuous",
+            "example_value": "0",
+            "dtype": "Int8",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                1.0
+            ],
+            "description": "Field close_vs_cost50_den_invalid_flag from feature_C_chip.parquet"
+        },
+        "close_vs_cost50_extreme_flag": {
+            "category": "Dynamic Continuous",
+            "example_value": "0",
+            "dtype": "Int8",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                1.0
+            ],
+            "description": "Field close_vs_cost50_extreme_flag from feature_C_chip.parquet"
+        },
+        "chip_width_extreme_flag": {
+            "category": "Dynamic Continuous",
+            "example_value": "0",
+            "dtype": "Int8",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                1.0
+            ],
+            "description": "Field chip_width_extreme_flag from feature_C_chip.parquet"
+        },
+        "overhang_95_outlier_flag": {
+            "category": "Dynamic Continuous",
+            "example_value": "0",
+            "dtype": "Int8",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                1.0
+            ],
+            "description": "Field overhang_95_outlier_flag from feature_C_chip.parquet"
+        },
+        "support_5_outlier_flag": {
+            "category": "Dynamic Continuous",
+            "example_value": "0",
+            "dtype": "Int8",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                1.0
+            ],
+            "description": "Field support_5_outlier_flag from feature_C_chip.parquet"
+        }
+    },
+    "feat_feature_D_fundamental": {
+        "ts_code": {
+            "category": "Index Key",
+            "example_value": "600874.SH",
+            "dtype": "String",
+            "missing_rate": 0.0,
+            "value_range": [
+                "000001.SZ",
+                "920992.BJ"
+            ],
+            "description": "Stock code identifier (e.g., Code.Exchange)"
+        },
+        "trade_date": {
+            "category": "Index Key",
+            "example_value": "20050104",
+            "dtype": "String",
+            "missing_rate": 0.0,
+            "value_range": [
+                "20050104",
+                "20260313"
+            ],
+            "description": "Trading date in YYYYMMDD format"
+        },
+        "pe_ttm_log": {
+            "category": "Dynamic Continuous",
+            "example_value": "3.1115176677703857",
+            "dtype": "Float32",
+            "missing_rate": 0.17170257879368642,
+            "value_range": [
+                0.12522196769714355,
+                14.791515350341797
+            ],
+            "description": "Field pe_ttm_log from feature_D_fundamental.parquet"
+        },
+        "pb_log": {
+            "category": "Dynamic Continuous",
+            "example_value": "1.5321680307388306",
+            "dtype": "Float32",
+            "missing_rate": 0.014624747273709748,
+            "value_range": [
+                0.02234840579330921,
+                10.730390548706055
+            ],
+            "description": "Field pb_log from feature_D_fundamental.parquet"
+        },
+        "ps_ttm_log": {
+            "category": "Dynamic Continuous",
+            "example_value": "2.392343521118164",
+            "dtype": "Float32",
+            "missing_rate": 0.006974981718088527,
+            "value_range": [
+                0.014987130649387836,
+                22.566789627075195
+            ],
+            "description": "Field ps_ttm_log from feature_D_fundamental.parquet"
+        },
+        "dv_ttm_raw": {
+            "category": "Dynamic Continuous",
+            "example_value": "1.3467999696731567",
+            "dtype": "Float32",
+            "missing_rate": 0.34975070594600155,
+            "value_range": [
+                0.0034000000450760126,
+                157.47999572753906
+            ],
+            "description": "Field dv_ttm_raw from feature_D_fundamental.parquet"
+        },
+        "total_share_log": {
+            "category": "Dynamic Continuous",
+            "example_value": "11.798111915588379",
+            "dtype": "Float32",
+            "missing_rate": 0.005962089215727989,
+            "value_range": [
+                7.863651275634766,
+                17.388996124267578
+            ],
+            "description": "Field total_share_log from feature_D_fundamental.parquet"
+        },
+        "free_share_log": {
+            "category": "Dynamic Continuous",
+            "example_value": "9.328167915344238",
+            "dtype": "Float32",
+            "missing_rate": 0.006386077090469708,
+            "value_range": [
+                1.8424842357635498,
+                15.531856536865234
+            ],
+            "description": "Field free_share_log from feature_D_fundamental.parquet"
+        },
+        "total_mv_log": {
+            "category": "Dynamic Continuous",
+            "example_value": "13.579814910888672",
+            "dtype": "Float32",
+            "missing_rate": 0.005962089215727989,
+            "value_range": [
+                7.841631889343262,
+                20.50580596923828
+            ],
+            "description": "Field total_mv_log from feature_D_fundamental.parquet"
+        },
+        "circ_mv_log": {
+            "category": "Dynamic Continuous",
+            "example_value": "11.109803199768066",
+            "dtype": "Float32",
+            "missing_rate": 0.005962089215727989,
+            "value_range": [
+                5.756529808044434,
+                19.604665756225586
+            ],
+            "description": "Field circ_mv_log from feature_D_fundamental.parquet"
+        },
+        "free_float_ratio_capped": {
+            "category": "Dynamic Continuous",
+            "example_value": "0.08458270877599716",
+            "dtype": "Float32",
+            "missing_rate": 0.006386077090469708,
+            "value_range": [
+                0.000758818001486361,
+                1.0
+            ],
+            "description": "Field free_float_ratio_capped from feature_D_fundamental.parquet"
+        },
+        "circ_mv_to_total_mv_capped": {
+            "category": "Dynamic Continuous",
+            "example_value": "0.08458270877599716",
+            "dtype": "Float32",
+            "missing_rate": 0.005962089215727989,
+            "value_range": [
+                0.003890322521328926,
+                1.0
+            ],
+            "description": "Field circ_mv_to_total_mv_capped from feature_D_fundamental.parquet"
+        },
+        "pe_ttm_rank_mkt": {
+            "category": "Dynamic Continuous",
+            "example_value": "0.2808586762075134",
+            "dtype": "Float64",
+            "missing_rate": 0.17170257879368642,
+            "value_range": [
+                0.00023923444976076556,
+                1.0
+            ],
+            "description": "Field pe_ttm_rank_mkt from feature_D_fundamental.parquet"
+        },
+        "pe_ttm_rank_ind": {
+            "category": "Dynamic Continuous",
+            "example_value": "0.2808586762075134",
+            "dtype": "Float64",
+            "missing_rate": 0.17170257879368642,
+            "value_range": [
+                0.00023923444976076556,
+                1.0
+            ],
+            "description": "PE TTM Industry Rank"
+        },
+        "pb_rank_ind": {
+            "category": "Dynamic Continuous",
+            "example_value": "0.8712121212121212",
+            "dtype": "Float64",
+            "missing_rate": 0.014624747273709748,
+            "value_range": [
+                0.0001838235294117647,
+                1.0
+            ],
+            "description": "PB Industry Rank"
+        },
+        "ps_ttm_rank_ind": {
+            "category": "Dynamic Continuous",
+            "example_value": "0.9478390461997019",
+            "dtype": "Float64",
+            "missing_rate": 0.006974981718088527,
+            "value_range": [
+                0.00018261504747991235,
+                1.0
+            ],
+            "description": "PS TTM Industry Rank"
+        },
+        "dv_ttm_rank_mkt": {
+            "category": "Dynamic Continuous",
+            "example_value": "0.16881028938906753",
+            "dtype": "Float64",
+            "missing_rate": 0.34975070594600155,
+            "value_range": [
+                0.0002506265664160401,
+                1.0
+            ],
+            "description": "Dividend Yield Market Rank"
+        },
+        "mv_rank_mkt": {
+            "category": "Dynamic Continuous",
+            "example_value": "0.9501488095238095",
+            "dtype": "Float64",
+            "missing_rate": 0.005962089215727989,
+            "value_range": [
+                0.00018241517694272163,
+                1.0
+            ],
+            "description": "Total Market Value Rank"
+        },
+        "valuation_compress_score": {
+            "category": "Dynamic Continuous",
+            "example_value": "-0.6503961282077942",
+            "dtype": "Float64",
+            "missing_rate": 0.17335259338598463,
+            "value_range": [
+                -0.9998305084745763,
+                -0.0003825120619832663
+            ],
+            "description": "Composite Valuation Score"
+        },
+        "pe_ttm_valid_flag": {
+            "category": "Dynamic Continuous",
+            "example_value": "1",
+            "dtype": "Int8",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                1.0
+            ],
+            "description": "Field pe_ttm_valid_flag from feature_D_fundamental.parquet"
+        },
+        "pb_valid_flag": {
+            "category": "Dynamic Continuous",
+            "example_value": "1",
+            "dtype": "Int8",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                1.0
+            ],
+            "description": "Field pb_valid_flag from feature_D_fundamental.parquet"
+        },
+        "pb_extreme_flag": {
+            "category": "Dynamic Continuous",
+            "example_value": "0",
+            "dtype": "Int8",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                1.0
+            ],
+            "description": "Field pb_extreme_flag from feature_D_fundamental.parquet"
+        },
+        "ps_ttm_valid_flag": {
+            "category": "Dynamic Continuous",
+            "example_value": "1",
+            "dtype": "Int8",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                1.0
+            ],
+            "description": "Field ps_ttm_valid_flag from feature_D_fundamental.parquet"
+        },
+        "ps_ttm_super_extreme_flag": {
+            "category": "Dynamic Continuous",
+            "example_value": "0",
+            "dtype": "Int8",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                1.0
+            ],
+            "description": "Field ps_ttm_super_extreme_flag from feature_D_fundamental.parquet"
+        },
+        "dv_ttm_missing_flag": {
+            "category": "Dynamic Continuous",
+            "example_value": "0",
+            "dtype": "Int8",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                1.0
+            ],
+            "description": "Field dv_ttm_missing_flag from feature_D_fundamental.parquet"
+        },
+        "dv_ttm_zero_flag": {
+            "category": "Dynamic Continuous",
+            "example_value": "0",
+            "dtype": "Int8",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                0.0
+            ],
+            "description": "Field dv_ttm_zero_flag from feature_D_fundamental.parquet"
+        },
+        "circ_mv_to_total_mv_out_of_domain_flag": {
+            "category": "Dynamic Continuous",
+            "example_value": "0",
+            "dtype": "Int8",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                1.0
+            ],
+            "description": "Field circ_mv_to_total_mv_out_of_domain_flag from feature_D_fundamental.parquet"
+        }
+    },
+    "feat_feature_E_intraday_summary": {
+        "ts_code": {
+            "category": "Index Key",
+            "example_value": "000001.SZ",
+            "dtype": "String",
+            "missing_rate": 0.0,
+            "value_range": [
+                "000001.SZ",
+                "920992.BJ"
+            ],
+            "description": "Stock code identifier (e.g., Code.Exchange)"
+        },
+        "trade_date": {
+            "category": "Index Key",
+            "example_value": "20100104",
+            "dtype": "String",
+            "missing_rate": 0.0,
+            "value_range": [
+                "20100104",
+                "20260313"
+            ],
+            "description": "Trading date in YYYYMMDD format"
+        },
+        "hour1_ret": {
+            "category": "Dynamic Continuous",
+            "example_value": "-0.011419296264648438",
+            "dtype": "Float32",
+            "missing_rate": 0.03223770992648309,
+            "value_range": [
+                -0.9705284833908081,
+                5.26576566696167
+            ],
+            "description": "First hour return"
+        },
+        "lasthour_ret": {
+            "category": "Dynamic Continuous",
+            "example_value": "-0.010020971298217773",
+            "dtype": "Float32",
+            "missing_rate": 0.004563875688461339,
+            "value_range": [
+                -0.6096096038818359,
+                2.5129148960113525
+            ],
+            "description": "Last hour return"
+        },
+        "midday_reversal": {
+            "category": "Dynamic Continuous",
+            "example_value": "0.001398324966430664",
+            "dtype": "Float32",
+            "missing_rate": 0.03223770992648309,
+            "value_range": [
+                -5.26576566696167,
+                2.5129148960113525
+            ],
+            "description": "Intraday reversal"
+        },
+        "intraday_trend_eff": {
+            "category": "Dynamic Continuous",
+            "example_value": "-23.66411590576172",
+            "dtype": "Float32",
+            "missing_rate": 0.036741772879422874,
+            "value_range": [
+                -5187.2255859375,
+                42442.59375
+            ],
+            "description": "Intraday trend efficiency"
+        },
+        "intraday_trend_eff_robust": {
+            "category": "Dynamic Continuous",
+            "example_value": "-23.66411590576172",
+            "dtype": "Float32",
+            "missing_rate": 0.036741772879422874,
+            "value_range": [
+                -157.15130615234375,
+                156.7984619140625
+            ],
+            "description": "Field intraday_trend_eff_robust from feature_E_intraday_summary.parquet"
+        },
+        "hourly_volatility": {
+            "category": "Dynamic Continuous",
+            "example_value": "0.00591580243781209",
+            "dtype": "Float32",
+            "missing_rate": 0.004563875688461339,
+            "value_range": [
+                0.0,
+                2.35492205619812
+            ],
+            "description": "Hourly return volatility"
+        },
+        "volume_concentration_pm": {
+            "category": "Dynamic Continuous",
+            "example_value": "0.5832351446151733",
+            "dtype": "Float32",
+            "missing_rate": 0.031791217480033135,
+            "value_range": [
+                0.0,
+                1.0
+            ],
+            "description": "Afternoon volume concentration"
+        },
+        "vwap_close_bias_1h": {
+            "category": "Dynamic Continuous",
+            "example_value": "-0.011460688896477222",
+            "dtype": "Float32",
+            "missing_rate": 0.031791217480033135,
+            "value_range": [
+                -0.9989720582962036,
+                0.990961492061615
+            ],
+            "description": "Close vs 1H VWAP bias"
+        },
+        "high_low_time_skew": {
+            "category": "Dynamic Continuous",
+            "example_value": "-0.75",
+            "dtype": "Float64",
+            "missing_rate": 0.004559027933973299,
+            "value_range": [
+                -1.0,
+                1.0
+            ],
+            "description": "Timing skew of high/low"
+        },
+        "day_price_nonpositive_flag": {
+            "category": "Dynamic Continuous",
+            "example_value": "0",
+            "dtype": "Int8",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                1.0
+            ],
+            "description": "Field day_price_nonpositive_flag from feature_E_intraday_summary.parquet"
+        },
+        "no_trade_day_flag": {
+            "category": "Dynamic Continuous",
+            "example_value": "0",
+            "dtype": "Int8",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                1.0
+            ],
+            "description": "Field no_trade_day_flag from feature_E_intraday_summary.parquet"
+        },
+        "missing_intraday_source_flag": {
+            "category": "Dynamic Continuous",
+            "example_value": "0",
+            "dtype": "Int8",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                0.0
+            ],
+            "description": "Field missing_intraday_source_flag from feature_E_intraday_summary.parquet"
+        },
+        "sum_abs_ret_zero_flag": {
+            "category": "Dynamic Continuous",
+            "example_value": "0",
+            "dtype": "Int8",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                1.0
+            ],
+            "description": "Field sum_abs_ret_zero_flag from feature_E_intraday_summary.parquet"
+        },
+        "low_bar_count_flag": {
+            "category": "Dynamic Continuous",
+            "example_value": "0",
+            "dtype": "Int8",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                0.0
+            ],
+            "description": "Field low_bar_count_flag from feature_E_intraday_summary.parquet"
+        },
+        "hour1_has_trade_zero_flag": {
+            "category": "Dynamic Continuous",
+            "example_value": "0",
+            "dtype": "Int8",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                1.0
+            ],
+            "description": "Field hour1_has_trade_zero_flag from feature_E_intraday_summary.parquet"
+        },
+        "hour1_single_trade_flag": {
+            "category": "Dynamic Continuous",
+            "example_value": "0",
+            "dtype": "Int8",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                0.0
+            ],
+            "description": "Field hour1_single_trade_flag from feature_E_intraday_summary.parquet"
+        },
+        "intraday_trend_eff_den_small_flag": {
+            "category": "Dynamic Continuous",
+            "example_value": "0",
+            "dtype": "Int8",
+            "missing_rate": 0.0,
+            "value_range": [
+                0.0,
+                1.0
+            ],
+            "description": "Field intraday_trend_eff_den_small_flag from feature_E_intraday_summary.parquet"
+        }
+    }
+}
